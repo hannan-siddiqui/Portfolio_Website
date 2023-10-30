@@ -7,6 +7,7 @@
     border: none;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 :root{
     --bg-color:#1f242d;
@@ -88,10 +89,18 @@ section{
 } 
 
 /* Home Image */
+.home_img{
+    width: 100vw;
+    
+}
+
+
 .home_img img{
     width: 35vh;
-    animation: floatImage 2s ease-in-out infinite;
+    border-radius: 20px 40px;
 }
+
+
 
 @keyframes floatImage{
     0%{
@@ -464,9 +473,12 @@ span{
     .footer{
         padding: 2rem 3%;
     }
-}
+   
 
 @media(max-width : 768px){
+    *{
+        margin: 3px;
+    }
     #menu_icon{
         display: block;
     }
@@ -500,11 +512,10 @@ span{
     .home_content h1{
         font-size: 5rem;
     }
-
-    .home_img img{
-        width: 70vw;
-        margin-top: 4rem;
+    .home_img{
+        margin-left: 50px;
     }
+    
 
     .about{
         flex-direction: column-reverse;
@@ -561,4 +572,5 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+}
 }

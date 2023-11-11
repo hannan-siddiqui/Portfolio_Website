@@ -544,6 +544,9 @@ span{
     .portfolio-container{
         grid-template-columns: 1fr;
     }
+    .home_img{
+        margin-right: 40vw;
+    }
 }
 
 @media(max-width:450px){
@@ -555,6 +558,9 @@ span{
     }
     .about_img img{
         width: 90vw;
+    }
+    .home_img{
+        margin-right: 50vw;
     }
 }
 

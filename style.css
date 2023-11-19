@@ -44,6 +44,7 @@ section{
     align-items: center;
     z-index: 100;
 }
+
 .header.sticky{
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
@@ -55,10 +56,6 @@ section{
     cursor: default;
     font-weight: 600;
 } 
-
-
-
-
 
 .navbar a{
     font-size: 1.7rem;
@@ -80,12 +77,15 @@ section{
     display: none;
 }
 
+
 .home{
+    /* margin-left: 10px; */
     display: flex;
     justify-content: center;  
     align-items: center;
     gap: 2rem;
     background-color: rgb(0, 0, 0);
+    
 } 
 
 /* Home Image */
@@ -193,30 +193,134 @@ span{
     
 }
 
-/* about image */
 
-.about_img{
-    width: 100vw;
-    border: 15px solid black;
-    border-radius: 180px 100px;
-    overflow: hidden;
+
+/* skills  */
+
+
+.skills h1{
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+}
+
+/* .skill-layer{
+    width: 30vw;
+} */
+
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 40px; */
+    /* gap: 10rem; */
     
 }
-.about_content{
-    padding-left: 50px;
-    margin-left: 90px;
-}
 
-.about_img img{
+
+.skill-container .skill-box{
     position: relative;
-    width: 35vw;
-    object-fit: cover;
+    border-radius: 2rem;
+    
+    display: flex;
+    overflow: hidden;
+
 }
 
+
+.skill-box img{
+    width: 100%;
+    /* transition: 0.5s ease; */
+}
+
+
+.skill-box:hover .skill-image{
+        visibility: hidden;
+    
+}
+
+
+.skill-box .skill-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+}
+
+
+
+
+
+.skill-box{
+    padding: 10px;
+    width: 13vw;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-bottom: 60px;
+    transition:  5s;
+
+    /* transition-duration: 0s; */
+}
+
+.skill-box:hover .skill-layer{
+    transform: translate(0);
+    background: linear-gradient(rgba(0, 0, 0, .1), red);
+    
+}
+
+.skill-box:hover {
+    box-shadow: 0 0 3rem red;
+    transition: 2s;
+    transition-delay: 0s;
+}
+.skill-layer{
+    transition:  2s;
+}
+.skill-layer h3{
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 2rem;
+}
 .heading{
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
+
+.skill-layer p{
+    color: red;
+    font-size: 1.6rem;
+    margin: 3rem 0 1rem;
+}
+
+.skill-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: black;
+    border-radius: 50%;
+}
+
+.skill-layer a i{
+    font-size: 2rem;
+    background-color: black;
+
+}
+
 
 /* ---------------------- */
 
@@ -299,15 +403,26 @@ span{
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
+   
+
+}
+
+.portfolio-box{
+    transition: ease 1s;
+}
+
+.portfolio-box:hover{
+    transition:ease-out 5s;
+    box-shadow: 0px 25px 50px rgb(255, 255, 255);
 }
 
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    /* box-shadow: 0 0 1rem var(--bg-color); */
     display: flex;
     overflow: hidden;
 }
@@ -322,13 +437,14 @@ span{
     
 }
 
+
 .portfolio-box .portfolio-layer{
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, .1), rgb(255, 0, 0));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,10 +461,11 @@ span{
 
 .portfolio-layer h3{
     padding-bottom: 20px;
-    color: rgb(244, 3, 3);
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 2rem;
 }
+
 .portfolio-layer p{
     color: red;
     font-size: 1.6rem;
@@ -361,13 +478,14 @@ span{
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
+    background: black;
+    color: rgb(0, 0, 0);
     border-radius: 50%;
 }
 
 .portfolio-layer a i{
     font-size: 2rem;
-    color: var(--second-bg-color);
+    color: black;
 
 }
 
@@ -476,12 +594,23 @@ span{
    
 
 @media(max-width : 768px){
+
+   .skill-container{
+    flex-direction: column;
+   }
+   .skill-box{
+    width: 30%;
+    height: 10%;
+   }
+
     *{
         margin: 3px;
     }
     #menu_icon{
         display: block;
     }
+
+    
     .navbar{
         position: absolute;
         top: 100%;
@@ -513,7 +642,9 @@ span{
         font-size: 5rem;
     }
     .home_img{
-        margin-left: 50px;
+       
+        display: flex;
+        justify-content: center;
     }
     
 
@@ -541,15 +672,37 @@ span{
 }
 
 @media(max-width:617px){
+
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       }
+       .skill-box{
+        width: 30vw;
+        height: 15vh;
+       }
+
     .portfolio-container{
         grid-template-columns: 1fr;
     }
     .home_img{
-        margin-right: 40vw;
+        /* padding-left: 30vw; */
+        margin-right: 20vw;
+        
     }
 }
 
 @media(max-width:450px){
+
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       }
+       .skill-box{
+        width: 30vw;
+        height: 12vh;
+       }
+
     html{
         font-size: 50%;
     }
@@ -560,11 +713,25 @@ span{
         width: 90vw;
     }
     .home_img{
-        margin-right: 50vw;
+        /* padding-left: 30vw; */
+        margin-right: 20vw;
+        
     }
+
 }
 
 @media(max-width:365px){
+    .skill-container{
+        background-color: red;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        
+    }
+    .home_img{
+        margin-left: 10vw;
+    }
     .home_img img{
         width: 90vw;
     }

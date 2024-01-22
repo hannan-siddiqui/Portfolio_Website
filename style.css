@@ -9,6 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 :root{
     --bg-color:#1f242d;
     --second-bg-color:#323946;
@@ -50,9 +51,8 @@ section{
 }
 
  .logo{
-    
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: red;
     cursor: default;
     font-weight: 600;
 } 
@@ -79,7 +79,6 @@ section{
 
 
 .home{
-    /* margin-left: 10px; */
     display: flex;
     justify-content: center;  
     align-items: center;
@@ -87,6 +86,12 @@ section{
     background-color: rgb(0, 0, 0);
     
 } 
+
+.home_content h1{
+    color: red;
+
+}
+
 
 /* Home Image */
 .home_img{
@@ -153,13 +158,14 @@ span{
  }
 
 .btn:hover{
-    box-shadow: none;
+    box-shadow: 0 0 2rem red;
 }
 
 
 
 .home_content p{
-    font-size: 1.6rem;
+    padding-top: 20px;
+    font-size: 2rem;
 }
 
 .social_media a{
@@ -201,7 +207,7 @@ span{
 .skills h1{
     text-align: center;
     color: red;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* .skill-layer{
@@ -215,30 +221,24 @@ span{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* margin-left: 40px; */
-    /* gap: 10rem; */
-    
 }
 
 
 .skill-container .skill-box{
     position: relative;
     border-radius: 2rem;
-    
     display: flex;
     overflow: hidden;
-
 }
 
 
 .skill-box img{
     width: 100%;
-    /* transition: 0.5s ease; */
 }
 
 
 .skill-box:hover .skill-image{
-        visibility: hidden;
+    visibility: hidden;
     
 }
 
@@ -249,7 +249,6 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,57 +339,7 @@ span{
     margin: 2rem 0 3rem;
 }
 
-/* service  */
 
-.services{
-    background-color: black;
-}
-
-.services h2{
-     margin-bottom: 5rem;
-
-}
-.services_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;   
-}
-.services_box{
-    height: 50vh;
-}
-.services_container .services_box{
-    flex: 1 1 30rem;
-    background-color: rgb(24, 18, 18);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: 0.2rem solid white;
-    transition: 0.5s ease;
-}
-
-.services_container .services_box:hover {
-    border-color: rgb(0, 0, 0);
-    transform: scale(1.02);
-}
-.services_box h3:hover{
-    color: red;
-}
-.services_box i{
-    font-size: 7rem;
-    color: var(--main-color);
-}
-.services_box h3{
-    color: red;
-    font-size:2.6rem ;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.services_box p{
-    font-size: 1.6rem;
-    margin: 1rem 0 3rem;
-}
 
 /* portfolio  */
 
@@ -422,7 +371,6 @@ span{
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    /* box-shadow: 0 0 1rem var(--bg-color); */
     display: flex;
     overflow: hidden;
 }
@@ -595,9 +543,8 @@ span{
 
 @media(max-width : 768px){
 
-   .skill-container{
-    flex-direction: column;
-   }
+
+   
    .skill-box{
     width: 30%;
     height: 10%;
@@ -721,19 +668,39 @@ span{
 }
 
 @media(max-width:365px){
+    
+.home_content h1{
+    color: red;
+    font-size: 3rem;    
+}
+
     .skill-container{
-        background-color: red;
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         align-items: center;
         
     }
+
+    
+.skill-box{
+    padding: 10px;
+    width: 35vw;
+    height: 13vh;
+    margin-left: 4vw;
+    margin-bottom: 60px;
+    transition:  5s;
+
+    /* transition-duration: 0s; */
+}
+
     .home_img{
-        margin-left: 10vw;
+        /* margin-left: 10vw; */
+        margin-right: 30vw;
+    
     }
     .home_img img{
-        width: 90vw;
+        width: 80vw;
     }
     .about_img img{
         width: 90vw;

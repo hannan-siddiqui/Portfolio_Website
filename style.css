@@ -73,7 +73,7 @@ section{
 
 #menu_icon{
     font-size: 3.6rem;
-    color: var(--text-color);
+    color: red;
     display: none;
 }
 
@@ -686,7 +686,7 @@ span{
 .skill-box{
     padding: 10px;
     width: 35vw;
-    height: 13vh;
+    height: 15vh;
     margin-left: 4vw;
     margin-bottom: 60px;
     transition:  5s;

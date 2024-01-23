@@ -625,7 +625,7 @@ span{
         grid-template-columns: repeat(2,1fr);
        }
        .skill-box{
-        width: 30vw;
+        width: 25vgotw;
         height: 15vh;
        }
 
@@ -646,7 +646,7 @@ span{
         grid-template-columns: repeat(2,1fr);
        }
        .skill-box{
-        width: 30vw;
+        width: 25vw;
         height: 15vh;
        }
 

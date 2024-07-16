@@ -86,7 +86,7 @@ const FirstPage = () => {
       
       
      {
-      isDesktop &&  <div className=" absolute w-[100%] h-[100%] opacity-10">
+       isDesktop && <div className=" absolute w-[100%] h-[100%] opacity-10">
       <Texture />
     </div>
      }

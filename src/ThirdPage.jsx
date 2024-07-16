@@ -126,11 +126,12 @@ const ThirdPage = () => {
     { 
       
       img: p1,
-       desc:"Blogging Automobile Project This project is a comprehensive blogging platform tailored specifically for the automobile industry. It incorporates HTML, CSS, JavaScript for the front-end, while the back-end is powered by Python-Django framework along with a MySQLite database. The project also features an admin panel for easy content management.", 
+       desc:"This project is a comprehensive blogging platform tailored specifically for the automobile industry. It incorporates HTML, CSS, JavaScript for the front-end, while the back-end is powered by Django framework along with a MySQLite database. The project also features an admin panel for easy content management.", 
+
        title: "Cruise-Chronicles", 
        link: "https://github.com/hannan-siddiqui/Cruise_Chronicles" },
 
-    { img: p2, desc:"Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, DSA (Data Structures and Algorithms) sheets, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates for interviews.",  title: "Student-Help", link: "https://github.com/hannan-siddiqui/Student-Help" },
+    { img: p2, desc:"Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, DSA sheets, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates for interviews.",  title: "Student-Help", link: "https://github.com/hannan-siddiqui/Student-Help" },
     { img: p3, 
       desc:"BiteBuddy is food ordering app . Build using ReactJS, tailwind css,  ReduxJS, swiggy API",
       title: "Bite-Buddy", link: "https://github.com/hannan-siddiqui/BiteBuddy" },

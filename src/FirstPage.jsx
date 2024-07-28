@@ -103,7 +103,7 @@ const FirstPage = () => {
               <h1 className="text-xl md:text-4xl text-neutral-300">
                 I'M
                 <span className="ml-4 md:ml-10 font-bold text-3xl md:text-7xl text-yellow-400">
-                  Mohd Hannan
+                  Hannan Siddiqui
                 </span>
               </h1>
             </motion.div>

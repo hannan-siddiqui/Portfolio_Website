@@ -2,20 +2,16 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
 import "./App.css"
-import Texture from "./Texture";
+
 
 const FourthPage = () => {
 
-  const isDesktop = window.innerWidth >= 768;
+  
   
   return (
     <div className="mt-20 md:h-screen h-screen">
       <div className=" bg-custom">
-      {
-      isDesktop &&  <div className=" absolute w-[100%] h-[100%] opacity-10">
-      <Texture />
-    </div>
-     }
+    
 
         <div>
           <h1 className="text-yellow-500  md:text-5xl text-3xl font-bold ml-4 md:ml-[10%]">

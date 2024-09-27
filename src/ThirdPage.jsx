@@ -6,7 +6,7 @@ import p5 from "./projectpic/static.webp";
 import p6 from "./projectpic/aircraft-63032.jpg";
 import "./App.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import Texture from "./Texture";
+
 import { useAnimation, motion } from "framer-motion";
 import React, { useEffect } from "react";
 import { setupHoverEffect } from "./HoverCard3D";
@@ -150,11 +150,7 @@ const ThirdPage = () => {
 
   return (
     <div className="relative py-20 bg-custom">
-       {
-      isDesktop &&  <div className=" absolute w-[100%] h-[100%] opacity-10">
-      <Texture />
-    </div>
-     }
+    
 
       <div>
         <div>

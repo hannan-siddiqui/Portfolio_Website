@@ -30,9 +30,15 @@ const FirstPage = () => {
 
             <div   className="overflow-hidden p-4">
               <h1 className="text-xl md:text-4xl text-neutral-300">
+<<<<<<< HEAD
                
                 <span className="ml-4 md:ml-2 font-bold text-3xl md:text-7xl text-yellow-400">
                   Hello it's Hannan ...
+=======
+                I'M
+                <span className="ml-4 md:ml-10 font-bold text-3xl md:text-7xl text-yellow-400">
+                  Hannan Siddiqui
+>>>>>>> origin/main
                 </span>
               </h1>
             </div>

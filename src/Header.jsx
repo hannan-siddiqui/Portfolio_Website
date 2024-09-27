@@ -36,7 +36,11 @@ const Header = ({ scrollToFirstPage, scrollToSecondPage, scrollToThirdPage,scrol
 
       <div className='flex justify-center items-center '>
         
+<<<<<<< HEAD
         <div className='ml-0 md:ml-36 text-yellow-500 text-2xl md:text-5xl font-extrabold'>
+=======
+        <div className='ml-0 md:ml-36 text-yellow-500 text-4xl md:text-5xl font-extrabold'>
+>>>>>>> origin/main
           <h1>Hannan Siddiqui</h1>
         </div>
 

@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import "./App.css";
 import hannanImage from "./hannan.jpg";
-import FullScreen from "./FullScreen";
+
 
 const FirstPage = () => {
   return (

@@ -31,10 +31,13 @@ const Body = () => {
         scrollToFourthPage={() => scrollToSection(fourthPageRef)}
       />
 
-      <div ref={firstPageRef}><FirstPage /></div>
+     <div className=''>
+      
+     <div ref={firstPageRef}><FirstPage /></div>
       <div ref={secondPageRef}><SecondPage /></div>
       <div ref={thirdPageRef}><ThirdPage /></div>
       <div ref={fourthPageRef}><FourthPage /></div>
+     </div>
 
     </div>
   );

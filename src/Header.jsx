@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import "./App.css";
-import { animate, motion, useAnimation } from "framer-motion";
+
 
 const Header = ({ scrollToFirstPage, scrollToSecondPage, scrollToThirdPage,scrollToExperience, scrollToFourthPage }) => {
 
-const btd = useAnimation();
+
 
 const [showItems, setShowItems] = useState(false);
 
@@ -22,10 +22,6 @@ const toggleItems = () => {
   setShowItems(!showItems);
 
 
-  btd.start({
-    y:[-100,60,0],
-    transition:{ease:"easeInOut", duration:2}
-  })
 };
 
 

@@ -77,44 +77,7 @@ const ThirdPage = () => {
     };
   }, []);
 
-  useEffect(() => {
-    ud.start({
-      y: [-50, 50, 0], // Up to Down
-      transition: {
-        ease: "easeInOut",
-        yoyo: Infinity,
-        duration: 2,
-      },
-    });
 
-    du.start({
-      y: [50, 0], // Down to Up
-      transition: {
-        ease: "easeInOut",
-        yoyo: Infinity,
-        duration: 2,
-      },
-    });
-
-    lefttoright.start({
-      x: [-100, 0],
-      transition: { ease: "easeInOut", yoyo: Infinity, duration: 2 },
-    });
-
-    righttoleft.start({
-      x: [100, 0],
-      transition: { ease: "easeInOut", yoyo: Infinity, duration: 2 },
-    });
-
-    updown.start({
-      y: [0, 50, 0],
-      transition: {
-        duration: 2,
-        ease: "easeInOut",
-        repeat: Infinity,
-      },
-    });
-  }, [updown]);
 
   const cardsData = [
     { img: p6, 
@@ -154,14 +117,14 @@ const ThirdPage = () => {
 
       <div>
         <div>
-          <motion.h1 animate={lefttoright} className="md:text-5xl text-yellow-500 text-3xl font-bold ml-4 md:ml-[10%]">
+          <h1 animate={lefttoright} className="md:text-5xl text-yellow-500 text-3xl font-bold ml-4 md:ml-[10%]">
             Portfolio
-          </motion.h1>
+          </h1>
         </div>
-        <motion.div
+        <div
           animate={righttoleft}
           className="h-[2px] w-[50%] md:w-[67%] ml-[35%] md:ml-[22%] mt-2 bg-[#bab6b6]"
-        ></motion.div>
+        ></div>
       </div>
 
       <div className="mx-auto md:mx-0 mt-10 md:mt-28 gap-16 flex flex-wrap justify-center items-center">
@@ -178,12 +141,12 @@ const ThirdPage = () => {
               </div>
               <div 
                 className="opacity-0 group-hover:opacity-100 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col justify-center items-center">
-                <motion.div animate={ud} className="text-2xl font-mono font-bold">
+                <div animate={ud} className="text-2xl font-mono font-bold">
                   {card.title}
-                </motion.div>
-                <motion.div animate={ud} className="mt-3 font-mono font-semibold text-white">
+                </div>
+                <div animate={ud} className="mt-3 font-mono font-semibold text-white">
                   {card.desc}
-                </motion.div>
+                </div>
                 
               </div>
             </a>
@@ -197,20 +160,20 @@ const ThirdPage = () => {
               </div>
               <div 
                 className="opacity-0 group-hover:opacity-100 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col justify-center items-center">
-                <motion.div animate={ud} className="text-2xl font-mono font-bold">
+                <div animate={ud} className="text-2xl font-mono font-bold">
                   {card.title}
-                </motion.div>
-                <motion.div animate={ud} className="mt-3 font-mono font-semibold text-white">
+                </div>
+                <div animate={ud} className="mt-3 font-mono font-semibold text-white">
                   {card.desc}
-                </motion.div>
-                <motion.div
+                </div>
+                <div
                   animate={ud}
                   className="bg-black  text-white mt-4 text-2xl h-12 w-[100px] flex justify-center items-center rounded-lg"
                 >
                   <a target="__blank" href={card.link}>
                     <FaExternalLinkAlt />
                   </a>
-                </motion.div>
+                </div>
               </div>
             </div>
           )

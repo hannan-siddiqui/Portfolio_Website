@@ -5,12 +5,13 @@ import "./App.css";
 import hannanImage from "./hannan.jpg";
 
 
+
 const FirstPage = () => {
   return (
     <div className="relative py-10 bg-custom overflow-hidden md:h-screen">
-      <div className="absolute w-[100%] h-[100%] opacity-15"></div>
       
-      <div className="relative mt-20 md:mt-52 md:flex justify-evenly md:gap-5 ">
+      
+      <div className=" relative mt-20 md:mt-52 md:flex justify-evenly md:gap-5 ">
         <div className="">
           <div className="flex flex-col">
             <div className="rounded-xl flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16">
@@ -54,12 +55,14 @@ const FirstPage = () => {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
 
         <div className="card3d shadow-2xl shadow-zinc-400 hover:shadow-white sociallinkdiv mx-10 md:mx-0 md:p-0 mt-16 mb-10 md:mt-0 sm:w-[350px] md:w-[510px]">
-          <img className="rounded-tl-[30%] rounded-br-[30%] aspect-[3/4] border-[2px] border-yellow-100 object-cover" src={hannanImage} alt="404" />
+          <img className="rounded-tl-[10%] rounded-tr-[20%] rounded-bl-[20%] rounded-br-[10%] aspect-[3/4] border-[2px] border-yellow-100 object-cover" src={hannanImage} alt="404" />
         </div>
+
       </div>
     </div>
   );

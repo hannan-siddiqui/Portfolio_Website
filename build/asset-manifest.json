@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a76b0ad3.css",
+    "main.js": "/static/js/main.37905ad8.js",
+    "static/js/453.bb177003.chunk.js": "/static/js/453.bb177003.chunk.js",
+    "static/media/pr1.png": "/static/media/pr1.f0ca73931c687bb3802c.png",
+    "static/media/hannan.jpg": "/static/media/hannan.8b85c2216357fdfbfbd9.jpg",
+    "static/media/aircraft-63032.jpg": "/static/media/aircraft-63032.4e02e1883fd1cec047fe.jpg",
+    "static/media/batman.jpg": "/static/media/batman.482e071489848c67e65f.jpg",
+    "static/media/studenthelp.jpg": "/static/media/studenthelp.fb4a511380d66d0d8f30.jpg",
+    "static/media/bitebuddy.avif": "/static/media/bitebuddy.388be3809505da97dfa0.avif",
+    "static/media/static.webp": "/static/media/static.0744c29f86d4761b378d.webp",
+    "index.html": "/index.html",
+    "main.a76b0ad3.css.map": "/static/css/main.a76b0ad3.css.map",
+    "main.37905ad8.js.map": "/static/js/main.37905ad8.js.map",
+    "453.bb177003.chunk.js.map": "/static/js/453.bb177003.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a76b0ad3.css",
+    "static/js/main.37905ad8.js"
+  ]
+}

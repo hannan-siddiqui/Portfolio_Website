@@ -8,6 +8,21 @@
   transition: all .35s ease;
 }
 
+.n2{
+  border-radius: 10px;
+background: linear-gradient(45deg, #484747, #5d5b5b);
+box-shadow:  10px 10px 10px #424141,
+             -10px -10px 100px #8c8989;
+}
+
+
+
+.n1{
+  border-radius: 30px;
+background: linear-gradient(145deg, #484747, #5d5b5b);
+box-shadow:  10px 10px 10px #424141,
+             -10px -10px 100px #8c8989;
+}
 
 
 .nav >.headerbtn {

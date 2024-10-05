@@ -8,11 +8,7 @@
 }
 
 .n2 {
-  /* border-radius: 10px;
-background: rgb(37, 34, 34);
-box-shadow:  10px 10px 10px #424141,
-             -10px -10px 100px #8c8989; */
-
+ 
   border-radius: 15px;
   background: rgb(79, 77, 77);
   box-shadow: 15px 15px 10px #2d2c2c, -35px -35px 70px #4d4a4a;

@@ -15,7 +15,7 @@ const FirstPage = () => {
 
         <div className=" flex justify-center items-center">
 
-          <div className="um border-[2px] hover:border-black border-red-500 flex flex-col pb-10 w-[400px]  md:w-[700px]">
+          <div className="r um border-[2px] hover:border-black border-red-500 flex justify-center flex-col pb-10 w-[380px]  md:w-[700px]">
 
             <div className="rounded-xl w-[90%] md:w-[550px] flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16">
               <div className="n2 overflow-hidden p-4 w-[320px] md:w-[550px] border hover:border-black border-red-500">

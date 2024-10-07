@@ -4,6 +4,7 @@ import p3 from "./projectpic/bitebuddy.avif";
 import p4 from "./projectpic/batman.jpg";
 import p5 from "./projectpic/static.webp";
 import p6 from "./projectpic/aircraft-63032.jpg";
+import p7 from "./projectpic/chat.webp"
 import "./App.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -14,13 +15,19 @@ import { setupHoverEffect } from "./HoverCard3D";
 const ThirdPage = () => {
  
   const isDesktop = window.innerWidth >= 768;
-
+  
   const cardsData = [
     { img: p6, 
       desc:"An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, an admin dashboard , order tracking, and user authentication. ",
 
       title:
        "Hyper-Cart", link: "https://github.com/hannan-siddiqui/Hyper-Cart" },
+
+       { img: p7, 
+        desc:"Chatify - A real-time chat app built with MERN, Socket.io, and TailwindCSS. Features JWT-based authentication, online user status, global state management with Zustand, error handling, and free deployment options. Perfect for learning full-stack development with real-time messaging!",
+  
+        title:
+         "Hyper-Cart", link: "https://github.com/hannan-siddiqui/Chatify" },
 
     { 
       

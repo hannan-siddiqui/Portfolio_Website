@@ -30,7 +30,8 @@ const FirstPage = () => {
                   </span>
                 </h1>
               </div>
-              <div className="h-[1px] my-6 bg-[#262222] w-[320px] md:w-[550px]"></div>
+              <div className=" h-[3px] rounded-lg my-6 bg-[#ff3030] w-[320px] md:w-[550px]"></div>
+
               <div className="n1 w-[320px] md:h-[200px] overflow-hidden md:w-[550px] h-[180px] mt-2 md:mt-4 p-2 text-xl font-bold md:text-3xl text-[#252323] place-content-center text-center border border-slate-700">
                 "Enthusiastic software developer dedicated to continuous growth
                 and adaptation in the rapidly changing tech landscape."

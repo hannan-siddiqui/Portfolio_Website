@@ -42,7 +42,7 @@ const SecondPage = () => {
 
       {/* skills cards */}
       <div className="ml-4 mr-4 md:ml-[5%] md:mr[5%] md:mx-0 mx-auto mt-10 md:mt-28 gap-4 md:gap-16 flex flex-wrap justify-center items-center">
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative  bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-4 top-1">
             <Python />
           </div>
@@ -55,7 +55,7 @@ const SecondPage = () => {
           </div>
         </div>
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-10 top-4">
             <Java />
           </div>
@@ -68,7 +68,7 @@ const SecondPage = () => {
           </div>
         </div>
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-14 top-3 object-contain">
             <JS />
           </div>
@@ -81,7 +81,7 @@ const SecondPage = () => {
           </div>
         </div>
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-8 top-5 object-contain">
             <R />
           </div>
@@ -94,7 +94,7 @@ const SecondPage = () => {
           </div>
         </div>
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-8 top-3 object-contain">
             <Node />
           </div>
@@ -108,7 +108,7 @@ const SecondPage = () => {
         </div>
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-4 top-4">
             <NextJs />
           </div>
@@ -122,7 +122,7 @@ const SecondPage = () => {
         </div>
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-1 top-2 object-contain">
             <MongoDB />
           </div>
@@ -134,7 +134,7 @@ const SecondPage = () => {
             MongoDB
           </div>
         </div>
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute  md:top-16 top-2 object-contain">
             <SQL/>
           </div>
@@ -148,7 +148,7 @@ const SecondPage = () => {
         </div>
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-10 top-2 object-contain">
             <Docker />
           </div>
@@ -162,7 +162,7 @@ const SecondPage = () => {
         </div>
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-14 top-6 object-contain">
             <AWS />
           </div>
@@ -179,7 +179,7 @@ const SecondPage = () => {
         
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div  className="absolute md:top-8 top-5 object-contain">
             <Git />
           </div>
@@ -193,7 +193,7 @@ const SecondPage = () => {
         </div>
 
 
-        <div className="borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
+        <div className="border border-neutral-400 borderhovereffect2 hover:rotate-12 transition ease-in-out innermorphic hover:bg-[#9f851e] relative bg-[#4d4c4c] w-[100px] h-[100px] md:w-[300px] md:h-[300px] flex flex-col justify-center items-center rounded-2xl">
           <div className="absolute md:top-6 top-4 object-contain">
             <Linux />
           </div>

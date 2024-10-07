@@ -4,15 +4,12 @@ import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import "./App.css";
 import hannanImage from "./hannan.jpg";
 
-import { useInView } from "react-intersection-observer";
+
 
 const FirstPage = () => {
 
 
-  const { ref, inView } = useInView({
-    threshold: 0.2, // Trigger animation when 20% of the component is visible
-    triggerOnce: true, // Only trigger once
-  });
+  
 
   return (
     <div className=" relative py-10 bg-[#484747] overflow-hidden md:h-screen">
@@ -20,9 +17,9 @@ const FirstPage = () => {
         <div className=" flex justify-center items-center">
           <div className="r um border-[2px] border-neutral-600 flex justify-center items-center flex-col pb-10 w-[380px]  md:w-[700px]">
             <div
-              ref={ref}
-              className={`transform transition-transform duration-[1s] ease-in-out
-        ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-100"} 
+             
+              className={`
+        
         md:mr-36 rounded-xl w-[90%] md:w-[550px] flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16`}
             >
               <div className="n2 overflow-hidden p-4 w-[320px] md:w-[550px] border border-zinc-500">
@@ -43,9 +40,9 @@ const FirstPage = () => {
 
             {/* social links */}
             <div
-            ref={ref}
-            className={`transform transition-transform duration-[1s] ease-in-out
-              ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-100"}
+         
+            className={`
+            
               border  n1   w-[320px] md:w-[550px]   md:mt-4 mt-8     flex justify-evenly items-center text-3xl md:text-7xl md:p-6 p-4 overflow-hidden  border-slate-600`}>
               <div className="rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 <a

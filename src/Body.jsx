@@ -22,7 +22,7 @@ const Body = () => {
 
 
   return (
-    <div className='overflow-hidden bg-custom'>
+    <div className='overflow-hidden bg-[#484747]'>
 
       <Header
         scrollToFirstPage={() => scrollToSection(firstPageRef)}

@@ -12,72 +12,8 @@ import React, { useEffect } from "react";
 import { setupHoverEffect } from "./HoverCard3D";
 
 const ThirdPage = () => {
-  const updown = useAnimation();
-  const du = useAnimation();
-  const ud = useAnimation();
-  const lefttoright = useAnimation();
-  const righttoleft = useAnimation();
-
-
+ 
   const isDesktop = window.innerWidth >= 768;
-
-  const handleScroll = () => {
-    const isDesktop = window.innerWidth >= 768;
-    if (!isDesktop) return;
-
-    lefttoright.start({
-      x: [-100, 0],
-      transition: { ease: "easeInOut", yoyo: Infinity, duration: 2 },
-    });
-
-    righttoleft.start({
-      x: [100, 0],
-      transition: { ease: "easeInOut", yoyo: Infinity, duration: 2 },
-    });
-
-    updown.start({
-      y: [0, 50, 0],
-      transition: {
-        duration: 2,
-        ease: "easeInOut",
-        repeat: Infinity,
-      },
-    });
-
-    ud.start({
-      y: [-50, 50, 0], // Up to Down
-      transition: {
-        ease: "easeInOut",
-        yoyo: Infinity,
-        duration: 2,
-      },
-    });
-
-    du.start({
-      y: [50, 0], // Down to Up
-      transition: {
-        ease: "easeInOut",
-        yoyo: Infinity,
-        duration: 2,
-      },
-    });
-  };
-
-  useEffect(() => {
-   
-      setupHoverEffect(".card3d");
-      
-      const isDesktop = window.innerWidth >= 768;
-      if (!isDesktop) return;
-  
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-
 
   const cardsData = [
     { img: p6, 
@@ -112,17 +48,17 @@ const ThirdPage = () => {
   
 
   return (
-    <div className="relative py-20 bg-custom">
+    <div className="relative py-20 bg-[#484747]">
     
 
       <div>
         <div>
-          <h1 animate={lefttoright} className="md:text-5xl text-yellow-500 text-3xl font-bold ml-4 md:ml-[10%]">
+          <h1  className="md:text-5xl text-yellow-500 text-3xl font-bold ml-4 md:ml-[10%]">
             Portfolio
           </h1>
         </div>
         <div
-          animate={righttoleft}
+          
           className="h-[2px] w-[50%] md:w-[67%] ml-[35%] md:ml-[22%] mt-2 bg-[#bab6b6]"
         ></div>
       </div>
@@ -141,10 +77,10 @@ const ThirdPage = () => {
               </div>
               <div 
                 className="opacity-0 group-hover:opacity-100 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col justify-center items-center">
-                <div animate={ud} className="text-2xl font-mono font-bold">
+                <div  className="text-2xl font-mono font-bold">
                   {card.title}
                 </div>
-                <div animate={ud} className="mt-3 font-mono font-semibold text-white">
+                <div  className="mt-3 font-mono font-semibold text-white">
                   {card.desc}
                 </div>
                 
@@ -160,14 +96,14 @@ const ThirdPage = () => {
               </div>
               <div 
                 className="opacity-0 group-hover:opacity-100 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col justify-center items-center">
-                <div animate={ud} className="text-2xl font-mono font-bold">
+                <div  className="text-2xl font-mono font-bold">
                   {card.title}
                 </div>
-                <div animate={ud} className="mt-3 font-mono font-semibold text-white">
+                <div className="mt-3 font-mono font-semibold text-white">
                   {card.desc}
                 </div>
                 <div
-                  animate={ud}
+                  
                   className="bg-black  text-white mt-4 text-2xl h-12 w-[100px] flex justify-center items-center rounded-lg"
                 >
                   <a target="__blank" href={card.link}>

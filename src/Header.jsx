@@ -24,7 +24,7 @@ const Header = ({
 
   return (
     <div className="flex justify-center   ">
-      <div className="border-[2px] hover:border-black border-red-500 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-10   py-4 md:py-8 flex md:flex-row flex-col  md:justify-start justify-evenly items-center">
+      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-10   py-4 md:py-8 flex md:flex-row flex-col  md:justify-start justify-evenly items-center">
         <div className="flex justify-evenly items-center ">
           <div className="flex justify-center items-center ">
             <div className="ml-0 md:ml-36 text-yellow-500 text-3xl md:text-5xl font-extrabold">
@@ -45,9 +45,10 @@ const Header = ({
         <div
           className={`md:flex ${
             showItems ? "block h-screen mt-[20%]" : "hidden h-[10px]"
-          } md:ml-[20%] md:mt-0 mt-6 ml-[54%] underline md:no-underline w-screen md:w-[40%]  `}
+          } md:ml-[20%] md:mt-0 mt-6 ml-[54%] underline md:no-underline w-screen md:w-[40%] `}
         >
-          <ul className="nav mt-6   md:mt-50 lg:mt-0 w-full  md:flex md:justify-evenly justify-center items-center  text-red-800  text-2xl font-serif font-semibold">
+          <ul className="nav mt-6  md:mt-50 lg:mt-0 w-full  md:flex md:justify-evenly justify-center items-center  text-neutral-400  text-2xl font-serif font-extrabold">
+            
             <li className={`headerbtn  mt-3  `} onClick={toggleItems}>
               <button onClick={scrollToFirstPage}>Home</button>
             </li>
@@ -61,6 +62,7 @@ const Header = ({
             <li className="headerbtn  mt-3" onClick={toggleItems}>
               <button onClick={scrollToFourthPage}>Contact</button>
             </li>
+
           </ul>
         </div>
       </div>

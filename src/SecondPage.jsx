@@ -23,7 +23,7 @@ const SecondPage = () => {
   
 
   return (
-    <div className="relative  bg-custom ">
+    <div className="relative md:mt-20 bg-[#484747] md:px-10 ">
 
 
       <div>

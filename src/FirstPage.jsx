@@ -11,7 +11,7 @@ const FirstPage = () => {
 
   const { ref, inView } = useInView({
     threshold: 0.2, // Trigger animation when 20% of the component is visible
-    triggerOnce: false, // Only trigger once
+    triggerOnce: true, // Only trigger once
   });
 
   return (

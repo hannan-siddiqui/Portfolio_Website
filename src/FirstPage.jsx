@@ -22,7 +22,7 @@ const FirstPage = () => {
             <div
               ref={ref}
               className={`transform transition-transform duration-[1s] ease-in-out
-        ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-0"} 
+        ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-100"} 
         md:mr-36 rounded-xl w-[90%] md:w-[550px] flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16`}
             >
               <div className="n2 overflow-hidden p-4 w-[320px] md:w-[550px] border border-zinc-500">
@@ -45,7 +45,7 @@ const FirstPage = () => {
             <div
             ref={ref}
             className={`transform transition-transform duration-[1s] ease-in-out
-              ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-0"}
+              ${inView ? "translate-x-0 opacity-100" : "-translate-x-96 opacity-100"}
               border  n1   w-[320px] md:w-[550px]   md:mt-4 mt-8     flex justify-evenly items-center text-3xl md:text-7xl md:p-6 p-4 overflow-hidden  border-slate-600`}>
               <div className="rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 <a

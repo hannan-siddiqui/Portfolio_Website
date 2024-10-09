@@ -27,7 +27,7 @@ const FirstPage = () => {
               <div className="n2 overflow-hidden p-4 w-[320px] md:w-[550px] border border-zinc-500">
                 <h1 className="text-xl md:text-4xl text-black font-medium">
                   I'M
-                  <span className="font-bold bg-neutral-800 px-4 pb-1 rounded-lg border border-red-800 text-3xl ml-7 md:ml-16 md:text-5xl text-red-600">
+                  <span className="font-bold bg-neutral-800 px-4 pb-1 rounded-lg border border-red-800 text-2xl ml-7 md:ml-16 md:text-5xl text-red-600">
                     Hannan Siddiqui
                   </span>
                 </h1>

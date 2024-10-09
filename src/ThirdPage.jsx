@@ -40,7 +40,7 @@ const ThirdPage = () => {
 
     {
       img: p2,
-      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, DSA sheets, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates for interviews.",
+      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates..",
       title: "Student-Help",
       link: "https://github.com/hannan-siddiqui/Student-Help",
     },
@@ -90,8 +90,8 @@ const ThirdPage = () => {
                 alt={card.title}
               />
             </div>
-            <div className="opacity-80 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col gap-y-2 justify-center items-center">
-              <div className="text-2xl font-mono font-bold bg-slate-300 p-1">{card.title}</div>
+            <div className="opacity-80 p-4 absolute w-[350px] max-h-[410px] overflow-hidden md:w-[450px] md:h-[400px] flex flex-col gap-y-3 justify-center items-center">
+              <div className="text-2xl font-mono font-bold">{card.title}</div>
               <div className=" font-mono font-semibold bg-zinc-600 p-3 text-white">
                 {card.desc}
               </div>

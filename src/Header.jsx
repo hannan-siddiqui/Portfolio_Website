@@ -24,7 +24,7 @@ const Header = ({
 
   return (
     <div className="flex justify-center   ">
-      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-10   py-4 md:py-8 flex md:flex-row flex-col  md:justify-start justify-evenly items-center">
+      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  md:justify-start justify-evenly items-center">
         <div className="flex justify-evenly items-center ">
           <div className="flex justify-center items-center ">
             <div className="ml-0 md:ml-36 text-yellow-500 text-3xl md:text-5xl font-extrabold">
@@ -56,7 +56,7 @@ const Header = ({
               <button onClick={scrollToSecondPage}>Skill</button>
             </li>
             <li className="headerbtn mt-3" onClick={toggleItems}>
-              <button onClick={scrollToThirdPage}>Portfolio</button>
+              <button onClick={scrollToThirdPage}>Project</button>
             </li>
 
             <li className="headerbtn  mt-3" onClick={toggleItems}>

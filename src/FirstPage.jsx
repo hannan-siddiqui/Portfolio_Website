@@ -3,6 +3,9 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import "./App.css";
 import hannanImage from "./hannan.jpg";
+import FrontPagePic from "./FrontPagePic";
+
+
 
 
 
@@ -25,7 +28,7 @@ const FirstPage = () => {
               <div className="n2 overflow-hidden p-4 w-[320px] md:w-[550px] border border-zinc-500">
                 <h1 className="text-xl md:text-4xl text-black font-medium">
                   I'M
-                  <span className="font-bold text-3xl ml-7 md:ml-16 md:text-5xl text-red-600">
+                  <span className="font-bold bg-neutral-800 px-4 pb-1 rounded-lg border border-red-800 text-3xl ml-7 md:ml-16 md:text-5xl text-red-600">
                     Hannan Siddiqui
                   </span>
                 </h1>
@@ -33,8 +36,7 @@ const FirstPage = () => {
               <div className=" h-[3px] rounded-lg my-6 bg-[#ff3030] w-[320px] md:w-[550px]"></div>
 
               <div className="n1 w-[320px] md:h-[200px] overflow-hidden md:w-[550px] h-[180px] mt-2 md:mt-4 p-2 text-xl font-bold md:text-3xl text-[#252323] place-content-center text-center border border-slate-700">
-                "Enthusiastic software developer dedicated to continuous growth
-                and adaptation in the rapidly changing tech landscape."
+                "Passionate software developer committed to ongoing growth and adaptation in the ever-evolving tech landscape."     
               </div>
             </div>
            
@@ -88,12 +90,8 @@ const FirstPage = () => {
           </div>
         </div>
 
-        <div className="card3d shadow-2xl shadow-zinc-400 hover:shadow-white border-[2px] border-neutral-600 sociallinkdiv mx-10 md:mx-0 md:p-0 mt-16 mb-10 md:mt-0 sm:w-[350px] md:w-[410px]">
-          <img
-            className=" aspect-[3/4]  object-cover"
-            src={hannanImage}
-            alt="404"
-          />
+        <div className="  border-[1px] border-white sociallinkdiv mx-10 md:mx-0 md:p-0 mt-16 mb-10 md:mt-0 sm:w-[350px] md:w-[410px]">
+          <FrontPagePic/>
         </div>
       </div>
     </div>

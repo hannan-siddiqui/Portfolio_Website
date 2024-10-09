@@ -90,12 +90,12 @@ const ThirdPage = () => {
                 alt={card.title}
               />
             </div>
-            <div className="opacity-80 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col gap-y-4 justify-center items-center">
-              <div className="text-2xl font-mono font-bold">{card.title}</div>
-              <div className="mt-3 font-mono font-semibold bg-zinc-600 p-3 text-white">
+            <div className="opacity-80 p-4 absolute w-[350px] h-[410px] md:w-[450px] md:h-[400px] flex flex-col gap-y-2 justify-center items-center">
+              <div className="text-2xl font-mono font-bold bg-slate-300 p-1">{card.title}</div>
+              <div className=" font-mono font-semibold bg-zinc-600 p-3 text-white">
                 {card.desc}
               </div>
-              <div className="  m w-[100px] flex   rounded-lg">
+              <div className="  w-[100px] flex   rounded-lg">
                 <a target="__blank" href={card.link}>
                  <GithubButton/>
                 </a>

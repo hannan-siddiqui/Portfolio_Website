@@ -12,7 +12,6 @@ import FrontPagePic from "./FrontPagePic";
 const FirstPage = () => {
 
 
-  
 
   return (
     <div className=" relative py-10 bg-[#484747] overflow-hidden md:h-screen">

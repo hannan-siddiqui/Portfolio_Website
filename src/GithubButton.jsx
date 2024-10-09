@@ -5,7 +5,7 @@ const GithubButton = () => {
     <div>
       
 <div
-  class=" flex justify-center items-center border-2 border-radius border-white-200 overflow-hidden p-1 rounded-full shadow-lg"
+  class=" flex justify-center items-center border-2 border-radius border-red-600 overflow-hidden p-1 rounded-full shadow-lg"
 >
   <button
     class="bg-[linear-gradient(#e9e9e9,#e9e9e9_50%,#fff)] group w-50 h-16 inline-flex transition-all duration-300 overflow-visible p-1 rounded-full group"

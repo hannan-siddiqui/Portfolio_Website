@@ -5,7 +5,7 @@ import styled from "styled-components";
 const SideMovingObj = ({ card }) => {
   return (
     <StyledWrapper>
-      <div className="relative md:mt-0 -mt-[130px] md:opacity-100 opacity-90 card flex justify-center items-start bg-neutral-600 md:ml-10 text-2xl md:w-[450px]  w-[380px] h-[300px] px-4">
+      <div className="relative md:mt-0 -mt-[130px] md:opacity-100 opacity-90 card flex justify-center items-start bg-neutral-600 md:ml-10 text-2xl md:w-[450px]  w-[380px] md:h-[300px] h-[300px] px-4">
         {/* texh stack */}
         <div className=" z-10 p-2 flex flex-col mt-2 md:mt-6 ">
           <div className="text-2xl md:text-4xl font-extrabold text-center">
@@ -18,7 +18,7 @@ const SideMovingObj = ({ card }) => {
               {card?.stack}
             </div>
           </div>
-          <div className="mt-3 text-[12px]  md:text-lg  font-semibold md:font-bold">{card?.desc}</div>
+          <div className="mt-3 text-sm  md:text-lg  font-semibold md:font-bold">{card?.desc}</div>
 
           {/* github link button */}
           <div className="absolute  bottom-0  left-[50%] translate-x-[-50%] ">

@@ -16,6 +16,7 @@ const FirstPage = () => {
   return (
     <div className=" relative py-10 bg-[#484747] overflow-hidden md:h-screen">
       <div className="relative mt-20 md:mt-52 md:flex justify-evenly md:gap-5 ">
+        
         <div className=" flex justify-center items-center">
           <div className="r um border-[2px] border-neutral-600 flex justify-center items-center flex-col pb-10 w-[380px]  md:w-[700px]">
             <div

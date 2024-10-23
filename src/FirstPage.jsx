@@ -47,15 +47,7 @@ const FirstPage = () => {
             className={`
             
               border  n1   w-[320px] md:w-[550px]   md:mt-4 mt-8     flex justify-evenly items-center text-3xl md:text-7xl md:p-6 p-4 overflow-hidden  border-slate-600`}>
-              <div className="rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                <a
-                  target="__blank"
-                  rel="noopener noreferrer"
-                  href="https://www.instagram.com/hannan_siddiqui___/?next=%2F"
-                >
-                  <FaInstagram />
-                </a>
-              </div>
+             
 
               <div className="sociallinkbutton rounded-2xl p-2 bg-gradient-to-r from-cyan-500 to-blue-500">
                 <a
@@ -77,6 +69,16 @@ const FirstPage = () => {
                 </a>
               </div>
 
+              <div className="rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                <a
+                  target="__blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/hannan_siddiqui___/?next=%2F"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
+
               <div className="hover:hue-rotate-180 sociallinkbutton rounded-2xl p-2 bg-white">
                 <a
                   target="__blank"
@@ -86,6 +88,7 @@ const FirstPage = () => {
                   <FaXTwitter />
                 </a>
               </div>
+              
             </div>
           </div>
         </div>

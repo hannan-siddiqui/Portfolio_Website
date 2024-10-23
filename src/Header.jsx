@@ -24,10 +24,10 @@ const Header = ({
 
   return (
     <div className="flex justify-center   ">
-      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  md:justify-start justify-evenly items-center">
+      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px] n2 bg-[#000000]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-start items-center">
         <div className="flex justify-evenly items-center ">
           <div className="flex justify-center items-center ">
-            <div className="ml-0 md:ml-36 text-yellow-500 text-3xl md:text-5xl font-extrabold">
+            <div className=" text-yellow-500 text-2xl md:text-4xl font-extrabold">
               <h1>Hannan Siddiqui</h1>
             </div>
           </div>

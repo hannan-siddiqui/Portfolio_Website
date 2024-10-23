@@ -9,12 +9,12 @@ const FourthPage = () => {
   
   
   return (
-    <div className="mt-20 md:h-screen h-screen bg-[#484747]">
-      <div className="bg-[#484747] ">
+    <div className="py-20  bg-[#1e1d1d]">
+      <div className=" ">
     
 
         <div>
-          <h1 className="text-yellow-500  md:text-5xl text-3xl font-bold ml-4 md:ml-[10%]">
+          <h1 className="text-neutral-400  md:text-5xl text-3xl font-bold ml-4 md:ml-[10%]">
             Contact Me
           </h1>
         </div>
@@ -24,11 +24,18 @@ const FourthPage = () => {
 
       {/* contact page design */}
 
-      <div className="mt-14 bg-[#484747] md:mt-36  flex flex-col justify-center items-center py-40 pt-0 gap-8">
+      <div className="mt-14  md:mt-36  flex flex-col justify-center items-center py-40 pt-0 gap-8">
 
-        <div className="md:flex justify-center items-center bg-[#484747] gap-6 ">
 
-          <div className="border  border-yellow-600 contact  w-[350px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+
+        <div className="text-3xl md:text-5xl text-red-700 font-bold">Do You Have Any Queries ?</div>
+        <div className="text-3xl  font-bold text-red-700 my-10 underline underline-offset-4">Feel Free To Contact</div>
+      
+        
+
+        <div className="md:flex justify-center items-center  gap-6 ">
+
+          <div className="border  border-yellow-600 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
             <div className=" text-xl md:text-6xl text-white   flex justify-center items-center  ">
               <MdOutlineMailOutline />
               <div className="text-xl md:text-4xl ml-3  text-yellow-700">
@@ -37,7 +44,7 @@ const FourthPage = () => {
             </div>
           </div>
 
-          <div className="border  border-yellow-600 contact mt-6 md:mt-0  w-[350px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+          <div className="border  border-yellow-600 contact mt-6 md:mt-0  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
             <div className=" text-4xl md:text-6xl text-white  flex justify-center items-center  ">
               <IoCallOutline />
               <div className="text-2xl md:text-4xl ml-3 text-yellow-700">
@@ -50,7 +57,7 @@ const FourthPage = () => {
 
         <div className="">
 
-          <div className="mt-0 md:mt-6 border  border-yellow-600 contact  w-[350px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+          <div className="mt-0 md:mt-6 border  border-yellow-600 contact  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
             <div className=" text-4xl md:text-6xl text-white   flex justify-center items-center  ">
               <CiLocationOn />
               <div className="text-2xl md:text-4xl ml-3 text-yellow-700">
@@ -60,6 +67,8 @@ const FourthPage = () => {
           </div>
 
         </div>
+
+
       </div>
 
     </div>

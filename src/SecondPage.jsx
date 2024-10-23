@@ -42,7 +42,7 @@ const SecondPage = () => {
   ];
 
   return (
-    <div className="relative md:mt-20 bg-[#484747] md:px-10 ">
+    <div className="relative md:py-20 bg-[#1e1d1d] md:px-10 ">
       <div>
         <h1 className="md:text-5xl text-3xl text-yellow-500 font-bold ml-4 md:ml-[10%]">
           Skills

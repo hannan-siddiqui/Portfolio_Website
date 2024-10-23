@@ -73,8 +73,8 @@ const ThirdPage = () => {
 
 
   return (
-    <div className="mt-10 py-20 px-40 bg-[#292828] ">
-      <div className="text-red-500 font-extrabold ml-0 text-3xl md:text-5xl">My Projects</div>
+    <div className=" py-20 px-40 bg-[#1e1d1d] ">
+      <div className="text-red-500 font-extrabold  text-3xl md:text-5xl -ml-20 md:ml-[0]">My Projects</div>
 
       <div className="mt-16 flex flex-col  justify-center items-center  rounded-xl py-10">
         <div className=" flex flex-wrap gap-10 justify-center items-center">

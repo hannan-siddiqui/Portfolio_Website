@@ -4,9 +4,9 @@ import hannanImage from "./hannan.jpg";
 const FrontPagePic = () => {
   return (
     <StyledWrapper>
-      <div className="card  ">
+      <div className="card md:w-[410px] w-[350px] ">
           <img
-            className="p-2 z-10 aspect-[3/4]  object-cover"
+            className="md:w-[410px] w-[350px] p-2 z-10   object-cover"
             src={hannanImage}
             alt="404"
           />

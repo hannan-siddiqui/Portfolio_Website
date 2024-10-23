@@ -12,10 +12,11 @@ import GithubButton from "./GithubButton";
 import React, { useEffect } from "react";
 
 const ThirdPage = () => {
+
   const cardsData = [
     {
       img: p6,
-      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, an admin dashboard , order tracking, and user authentication. ",
+      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, an admin dashboard , order tracking, and user authentication.",
       stack: "Next, Typescript, MongoDB, Stripe, Tailwind",
       title: "Hyper-Cart",
       link: "https://github.com/hannan-siddiqui/Hyper-Cart",
@@ -23,7 +24,7 @@ const ThirdPage = () => {
 
     {
       img: p7,
-      desc: "Chatify - A real-time chat app built with MERN, Socket.io, and TailwindCSS. Features JWT-based authentication, online user status, global state management with Zustand, error handling, and free deployment options. Perfect for learning full-stack development with real-time messaging!",
+      desc: "Chatify - A real-time chat app built with MERN, Socket.io, and TailwindCSS. Features JWT-based authentication, online user status, global state management with Zustand, error handling, and free deployment options. Perfect for learning full-stack development with real-time messaging.",
 
       title: "Chatify",
       stack: "React, Node, Express, MongoDB Tailwind, Socket.io",
@@ -40,7 +41,7 @@ const ThirdPage = () => {
 
     {
       img: p2,
-      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates..",
+      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates.",
       stack: "React, Redux, Django, MongoDB, Firebase, Tailwind",
       title: "Student-Help",
       link: "https://github.com/hannan-siddiqui/Student-Help",
@@ -70,16 +71,17 @@ const ThirdPage = () => {
     },
   ];
 
-  return (
-    <div className="py-20 px-40 bg-[#484747] flex flex-col  ">
-      <div className="text-red-500 font-extrabold text-5xl">My Projects</div>
 
-      <div className="mt-16 flex justify-center items-center ">
+  return (
+    <div className="mt-10 py-20 px-40 bg-[#292828] ">
+      <div className="text-red-500 font-extrabold ml-0 text-3xl md:text-5xl">My Projects</div>
+
+      <div className="mt-16 flex flex-col  justify-center items-center  rounded-xl py-10">
         <div className=" flex flex-wrap gap-10 justify-center items-center">
           {cardsData.map((card, index) => {
             return (
               <div
-                className="border-[2px] border-gray-500 bg-neutral-900 flex md:flex-row gap-4 flex-col text-neutral-300"
+                className=" justify-center items-center border-[2px] border-gray-500 bg-neutral-900 flex md:flex-row gap-4 flex-col text-neutral-300"
                 key={index}
               >
                 {/* image */}
@@ -92,7 +94,7 @@ const ThirdPage = () => {
                 </div>
 
                 {/* info  */}
-                <div className=" w-[300px] md:w-[400px] p-2 md:px-0 px-4">
+                <div className=" w-[300px] md:w-[400px]  md:px-0 px-4 ">
                   {/* title */}
                   <div className="text-red-900  font-bold text-3xl ">
                     {card.title}
@@ -113,6 +115,7 @@ const ThirdPage = () => {
                         </button>
                   </div>
                 </div>
+
               </div>
             );
           })}

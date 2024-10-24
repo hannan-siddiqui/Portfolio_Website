@@ -14,7 +14,8 @@ const FirstPage = () => {
 
   return (
     <div className=" relative py-10 bg-[#1e1d1d] overflow-hidden ">
-      <div className="relative mt-20 md:mt-52 md:flex justify-evenly md:gap-5 ">
+      
+      <div className="relative mt-20 md:mt-32 md:flex justify-evenly md:gap-5 ">
         
         <div className=" flex justify-center items-center">
           <div className="  border-[1px] border-[#323030] rounded-2xl flex justify-center items-center flex-col pb-10 w-[380px]  md:w-[700px]">
@@ -95,6 +96,7 @@ const FirstPage = () => {
         <div className="   sociallinkdiv mx-10 md:mx-0  mt-16  md:mt-0 w-[350px] md:w-[410px]">
           <FrontPagePic/>
         </div>
+
       </div>
     </div>
   );

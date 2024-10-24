@@ -12,11 +12,10 @@ import GithubButton from "./GithubButton";
 import React, { useEffect } from "react";
 
 const ThirdPage = () => {
-
   const cardsData = [
     {
       img: p6,
-      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, an admin dashboard , order tracking, and user authentication.",
+      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, and user authentication.",
       stack: "Next, Typescript, MongoDB, Stripe, Tailwind",
       title: "Hyper-Cart",
       link: "https://github.com/hannan-siddiqui/Hyper-Cart",
@@ -24,7 +23,7 @@ const ThirdPage = () => {
 
     {
       img: p7,
-      desc: "Chatify - A real-time chat app built with MERN, Socket.io, and TailwindCSS. Features JWT-based authentication, online user status, global state management with Zustand, error handling, and free deployment options. Perfect for learning full-stack development with real-time messaging.",
+      desc: "Chatify - A real-time chat app built with MERN, Socket.io, and TailwindCSS. Features JWT-based authentication, online user status, global state management with Zustand.",
 
       title: "Chatify",
       stack: "React, Node, Express, MongoDB Tailwind, Socket.io",
@@ -33,7 +32,7 @@ const ThirdPage = () => {
 
     {
       img: p1,
-      desc: "This project is a comprehensive blogging platform tailored specifically for the automobile industry. It incorporates HTML, CSS, JavaScript for the front-end, while the back-end is powered by Django framework along with a MySQLite database. The project also features an admin panel for easy content management.",
+      desc: "A blogging platform tailored specifically for the automobile industry. It incorporates React the front-end, while the back-end is powered by Django framework.",
       stack: "React, Redux, Django, MongoDB, Firebase, Tailwind",
       title: "Cruise-Chronicles",
       link: "https://github.com/hannan-siddiqui/Cruise_Chronicles",
@@ -41,7 +40,7 @@ const ThirdPage = () => {
 
     {
       img: p2,
-      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects, technical blogs, and work experience. Recruiters can utilize the platform to shortlist potential candidates.",
+      desc: "Student-Help is an e-learning platform designed to bridge the gap between students and recruiters. It provides a space for students to showcase their skills, projects and work experience. ",
       stack: "React, Redux, Django, MongoDB, Firebase, Tailwind",
       title: "Student-Help",
       link: "https://github.com/hannan-siddiqui/Student-Help",
@@ -64,63 +63,42 @@ const ThirdPage = () => {
 
     {
       img: p5,
-      desc: "Online auction System- I developed a dynamic auction platform using Django. The project incorporates HTML, CSS and JavaScript for frontend using Django framework for API functionality.",
+      desc: "Online auction System- I developed a dynamic auction platform using Django. The project incorporates HTML, CSS and JavaScript for frontend using Django framework.",
       stack: "HTML, CSS, Javascript,  Django, SQLite",
       title: "Static",
       link: "https://github.com/hannan-siddiqui/Static",
     },
   ];
 
-
   return (
-    <div className=" py-20 px-40 bg-[#1e1d1d] ">
-      <div className="text-red-500 font-extrabold  text-3xl md:text-5xl -ml-20 md:ml-[0]">My Projects</div>
+    <div className=" py-20 px-10 md:px-40 bg-[#1e1d1d] ">
+      <div className="text-red-700 font-extrabold  text-3xl md:text-5xl  md:ml-[0]">
+        My Projects
+      </div>
 
-      <div className="mt-16 flex flex-col  justify-center items-center  rounded-xl py-10">
-        <div className=" flex flex-wrap gap-10 justify-center items-center">
-          {cardsData.map((card, index) => {
-            return (
-              <div
-                className=" justify-center items-center border-[2px] border-gray-500 bg-neutral-900 flex md:flex-row gap-4 flex-col text-neutral-300"
-                key={index}
-              >
-                {/* image */}
-                <div className=" w-[300px] h-[180px] md:w-[400px] md:h-[250px]">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={card.img}
-                    alt=""
-                  />
-                </div>
+      <div className="mt-28 bg-[#1e1d1d] flex flex-wrap justify-center gap-10">
+        {cardsData.map((card, index) => (
+          <div key={index} className="bg-neutral-500 rounded-xl p-4 w-[400px] h-[220px] flex flex-col">
+            {/* title */}
+            <div className="text-red-900 font-bold text-3xl">{card.title}</div>
+            {/* stack */}
+            <div className="mt-2">
+              <span className="font-bold md:text-2xl">Tech stack:</span>
+              <span className="font-semibold ml-3">{card.stack}</span>
+            </div>
+            {/* description */}
+            <div className="mt-2">{card.desc}</div>
+            {/* link */}
+            <div className="mt-4 md:mb-0 mb-6 flex justify-center items-center">
+              <button className="bg-neutral-600 w-[100px] border border-neutral-500 hover:border-red-800 font-bold text-xl h-[35px] rounded-xl">
+                <a target="__blank" href={card.link}>
+                  GitHub
+                </a>
+              </button>
+            </div>
 
-                {/* info  */}
-                <div className="md:mx-6 w-[300px] md:w-[400px]  md:px-0 px-4 ">
-                  {/* title */}
-                  <div className="text-red-900  font-bold text-3xl ">
-                    {card.title}
-                  </div>
-                  {/* stack */}
-                  <div className="mt-2">
-                    <span className=" font-bold md:text-2xl  "> Tech stack: </span>
-                    <span className=" font-semibold ml-3"> {card.stack}</span>
-                  </div>
-                  {/* description */}
-                  <div className="mt-2 ">{card.desc}</div>
-                  {/* link */}
-                  <div className=" mt-4 md:mb-0 mb-6  flex justify-center items-center">
-                        <button className="bg-neutral-600 w-[100px] border border-neutral-500 hover:border-red-800 font-bold text-xl h-[35px] rounded-xl">
-                          <a target="__blank" href={card.link}>
-                            github
-                          </a>
-                        </button>
-                  </div>
-
-                </div>
-
-              </div>
-            );
-          })}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

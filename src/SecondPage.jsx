@@ -43,11 +43,11 @@ const SecondPage = () => {
 
   return (
     <div className="relative md:py-20 bg-[#1e1d1d] md:px-10 ">
-      <div>
-        <h1 className="md:text-5xl text-3xl text-yellow-500 font-bold ml-4 md:ml-[10%]">
+      <div className="md:mt-10">
+        <h1 className="md:text-5xl text-3xl text-red-700 font-bold ml-4 md:ml-[10%]">
           Skills
         </h1>
-        <div className="h-[2px] w-[50%] md:w-[67%] ml-[35%] md:ml-[22%] mt-2 bg-[#bab6b6]"></div>
+        <div className="h-[2px] w-[50%] md:w-[67%] ml-[35%] md:ml-[22%] mt-2 bg-red-900"></div>
       </div>
 
       {/* Skills cards */}

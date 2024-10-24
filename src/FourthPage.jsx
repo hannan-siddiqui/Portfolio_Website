@@ -14,7 +14,7 @@ const FourthPage = () => {
     
 
         <div>
-          <h1 className="text-neutral-400  md:text-5xl text-3xl font-bold ml-4 md:ml-[10%]">
+          <h1 className="text-red-700  md:text-5xl text-3xl font-bold ml-4 md:ml-[10%]">
             Contact Me
           </h1>
         </div>
@@ -28,8 +28,8 @@ const FourthPage = () => {
 
 
 
-        <div className="text-5xl  text-red-700 font-bold">Have Any Queries ?</div>
-        <div className="text-3xl  font-bold text-red-700 mt-6  mb-24 underline underline-offset-4">Feel Free To Contact</div>
+        <div className="md:text-5xl text-3xl text-red-700 font-bold">Have Any Queries ?</div>
+        <div className="md:text-3xl  text-xl font-bold text-red-700 mt-6  mb-24 underline underline-offset-4">Feel Free To Contact</div>
       
         
 

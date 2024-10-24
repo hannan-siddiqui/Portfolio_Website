@@ -28,8 +28,8 @@ const FourthPage = () => {
 
 
 
-        <div className="text-3xl md:text-5xl text-red-700 font-bold">Do You Have Any Queries ?</div>
-        <div className="text-3xl  font-bold text-red-700 my-10 underline underline-offset-4">Feel Free To Contact</div>
+        <div className="text-5xl  text-red-700 font-bold">Have Any Queries ?</div>
+        <div className="text-3xl  font-bold text-red-700 mt-6  mb-24 underline underline-offset-4">Feel Free To Contact</div>
       
         
 
@@ -38,7 +38,7 @@ const FourthPage = () => {
           <div className="border  border-yellow-600 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
             <div className=" text-xl md:text-6xl text-white   flex justify-center items-center  ">
               <MdOutlineMailOutline />
-              <div className="text-xl md:text-4xl ml-3  text-yellow-700">
+              <div className="text-lg md:text-4xl ml-3  text-yellow-700">
                 siddiquihannan824@gmail.com
               </div>
             </div>

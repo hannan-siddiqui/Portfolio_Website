@@ -24,7 +24,8 @@ const Header = ({
 
   return (
     <div className="flex justify-center   ">
-      <div className="border-[2px] border-zinc-800 mt-3 w-[90%] md:h-[70px]  bg-[#1e1d1d]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-start items-center">
+      <div className="rounded-2xl border-[2px]  border-zinc-800 mt-3 w-[90%] md:h-[70px]  bg-[#1e1d1d]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-around items-center">
+        
         <div className="flex justify-evenly items-center ">
           <div className="flex justify-center items-center ">
             <div className=" text-[#9f1f1f] text-2xl md:text-4xl font-extrabold">
@@ -47,7 +48,7 @@ const Header = ({
             showItems ? "block h-screen mt-[20%]" : "hidden h-[10px]"
           } md:ml-[20%] md:mt-0 mt-6 ml-[54%] underline md:no-underline w-screen md:w-[40%] `}
         >
-          <ul className="nav mt-6  md:mt-50 lg:mt-0 w-full  md:flex md:justify-end justify-center items-center  text-neutral-400  text-2xl font-serif font-extrabold">
+          <ul className="nav mt-6  md:mt-50 lg:mt-0 w-full  md:flex md:justify-between justify-center items-center  text-neutral-400  text-2xl font-serif font-extrabold">
             
             <li className={`headerbtn  mt-3  `} onClick={toggleItems}>
               <button onClick={scrollToFirstPage}>Home</button>
@@ -65,6 +66,7 @@ const Header = ({
 
           </ul>
         </div>
+
       </div>
     </div>
   );

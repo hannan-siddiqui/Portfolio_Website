@@ -34,7 +34,7 @@ const FirstPage = () => {
               </div>
               <div className=" h-[3px] rounded-lg my-6 bg-[#ff3030] w-[320px] md:w-[550px]"></div>
 
-              <div className=" w-[320px] md:h-[200px] overflow-hidden md:w-[550px] h-[180px] mt-2 md:mt-4 p-2 text-xl font-bold md:text-3xl text-[#ffffff] place-content-center text-center ">
+              <div className="bg-[#222121] rounded-xl w-[320px] md:h-[200px] overflow-hidden md:w-[550px] h-[180px] mt-2 md:mt-4 p-2 text-xl font-bold md:text-3xl text-[#ffffff] place-content-center text-center ">
                 "Passionate software developer committed to ongoing growth and adaptation in the ever-evolving tech landscape."     
               </div>
             </div>
@@ -48,7 +48,7 @@ const FirstPage = () => {
                    w-[320px] md:w-[550px]   md:mt-4 mt-8     flex justify-evenly items-center text-3xl md:text-7xl md:p-6 p-4 overflow-hidden  bg-[#222121]  rounded-3xl `}>
              
 
-              <div className="sociallinkbutton rounded-2xl p-2 bg-gradient-to-r from-cyan-500 to-blue-500">
+              <div className="transition-all duration-500 ease-in-out hover:-translate-y-2  sociallinkbutton rounded-2xl p-2 bg-gradient-to-r from-cyan-500 to-blue-500">
                 <a
                   target="__blank"
                   rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const FirstPage = () => {
                 </a>
               </div>
 
-              <div className="hover:hue-rotate-180 sociallinkbutton rounded-2xl p-2 bg-gradient-to-r from-neutral-900 to-black text-white">
+              <div className="transition-all duration-500 ease-in-out hover:-translate-y-2  sociallinkbutton rounded-2xl p-2 bg-gradient-to-r from-neutral-900 to-black text-white">
                 <a
                   target="__blank"
                   rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const FirstPage = () => {
                 </a>
               </div>
 
-              <div className="rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+              <div className=" transition-all duration-500 ease-in-out hover:-translate-y-2 rounded-2xl p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 <a
                   target="__blank"
                   rel="noopener noreferrer"
@@ -78,7 +78,7 @@ const FirstPage = () => {
                 </a>
               </div>
 
-              <div className="hover:hue-rotate-180 sociallinkbutton rounded-2xl p-2 bg-white">
+              <div className="transition-all duration-500 ease-in-out hover:-translate-y-2  sociallinkbutton rounded-2xl p-2 bg-white">
                 <a
                   target="__blank"
                   rel="noopener noreferrer"

@@ -94,14 +94,14 @@ const ThirdPage = () => {
                 </div>
 
                 {/* info  */}
-                <div className=" w-[300px] md:w-[400px]  md:px-0 px-4 ">
+                <div className="md:mx-6 w-[300px] md:w-[400px]  md:px-0 px-4 ">
                   {/* title */}
                   <div className="text-red-900  font-bold text-3xl ">
                     {card.title}
                   </div>
                   {/* stack */}
                   <div className="mt-2">
-                    <span className=" font-bold "> Tech stack: </span>
+                    <span className=" font-bold md:text-2xl  "> Tech stack: </span>
                     <span className=" font-semibold ml-3"> {card.stack}</span>
                   </div>
                   {/* description */}
@@ -114,6 +114,7 @@ const ThirdPage = () => {
                           </a>
                         </button>
                   </div>
+
                 </div>
 
               </div>

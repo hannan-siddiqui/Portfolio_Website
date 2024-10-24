@@ -78,7 +78,7 @@ const ThirdPage = () => {
 
       <div className="mt-28 bg-[#1e1d1d] flex flex-wrap justify-center gap-10">
         {cardsData.map((card, index) => (
-          <div key={index} className="bg-neutral-500 rounded-xl p-4 w-[400px] h-[220px] flex flex-col">
+          <div key={index} className="bg-neutral-500 rounded-xl p-4 w-[400px] h-[350px] md:h-[220px] flex flex-col">
             {/* title */}
             <div className="text-red-900 font-bold text-3xl">{card.title}</div>
             {/* stack */}

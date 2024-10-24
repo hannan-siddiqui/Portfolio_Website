@@ -78,18 +78,22 @@ const ThirdPage = () => {
 
       <div className="mt-28 bg-[#1e1d1d] flex flex-wrap justify-center gap-10">
         {cardsData.map((card, index) => (
-          <div key={index} className="bg-neutral-500 rounded-xl p-4 w-[400px] h-[350px] md:h-[220px] flex flex-col">
+          <div>
+            <div key={index} className="overflow-hidden bg-neutral-800 rounded-xl p-4 w-[400px] h-[350px] md:h-[220px] flex flex-col">
             {/* title */}
-            <div className="text-red-900 font-bold text-3xl">{card.title}</div>
+            <div className="text-red-900 font-bold text-3xl font-serif">{card.title}</div>
             {/* stack */}
-            <div className="mt-2">
+            <div className="mt-2 text-neutral-400">
               <span className="font-bold md:text-2xl">Tech stack:</span>
               <span className="font-semibold ml-3">{card.stack}</span>
             </div>
             {/* description */}
-            <div className="mt-2">{card.desc}</div>
-            {/* link */}
-            <div className="mt-4 md:mb-0 mb-6 flex justify-center items-center">
+            <div className="mt-2 text-neutral-300 ">{card.desc}</div>
+            
+
+          </div>
+          {/* link */}
+          <div className="mt-4 md:mb-0 mb-6 flex justify-center items-center">
               <button className="bg-neutral-600 w-[100px] border border-neutral-500 hover:border-red-800 font-bold text-xl h-[35px] rounded-xl">
                 <a target="__blank" href={card.link}>
                   GitHub
@@ -98,6 +102,8 @@ const ThirdPage = () => {
             </div>
 
           </div>
+          
+
         ))}
       </div>
     </div>

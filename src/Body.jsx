@@ -21,7 +21,7 @@ const Body = () => {
 
 
   return (
-    <div className='overflow-hidden bg-[#484747]'>
+    <div className='overflow-hidden bg-neutral-900'>
 
       <Header
         scrollToFirstPage={() => scrollToSection(firstPageRef)}
@@ -30,7 +30,7 @@ const Body = () => {
         scrollToFourthPage={() => scrollToSection(fourthPageRef)}
       />
 
-     <div className=''>
+     <div className='bg-[#000000]'>
       
      <div ref={firstPageRef}><FirstPage /></div>
       <div ref={secondPageRef}><SecondPage /></div>

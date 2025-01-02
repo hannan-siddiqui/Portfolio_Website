@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import "./App.css";
+import CustomButton from "./customui/Button";
 
 const Header = ({
   scrollToFirstPage,
   scrollToSecondPage,
   scrollToThirdPage,
-  scrollToExperience,
   scrollToFourthPage,
 }) => {
   const [showItems, setShowItems] = useState(false);
@@ -23,49 +23,71 @@ const Header = ({
   };
 
   return (
-    <div className="flex justify-center   ">
-      <div className="rounded-2xl border-[2px]  border-zinc-800 mt-3 w-[90%] md:h-[70px]  bg-[#1e1d1d]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-around items-center">
-        
-        <div className="flex justify-evenly items-center ">
-          <div className="flex justify-center items-center ">
-            <div className=" text-[#9f1f1f] text-2xl md:text-4xl font-extrabold">
-              <h1>Hannan </h1>
-            </div>
-          </div>
+    <div className="bg-neutral-900 flex justify-center   font-inter  ">
+      <div className="  rounded-2xl  mt-3 w-[90%]  md:h-[100px]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-center items-center">
 
-          <div className="lg:hidden md:hidden ml-12">
+        <div className="flex justify-center items-center ">
+          {/* logo */}
+          
+
+            <div onClick={toggleItems} className="flex justify-center items-center">
+              <div
+                onClick={scrollToFirstPage}
+                className="hidden px-8 hover:cursor-pointer w-[200px]  border border-red-700 z-30 py-4 bg-neutral-700 rounded-md text-white relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-red-700 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#be123c;] hover:[text-shadow:2px_2px_2px_#fda4af] text-2xl"
+              >
+                Hannan Siddiqui
+              </div>
+            </div>
+         
+
+          {/* toggle button */}
+          <div className="lg:hidden md:hidden flex justify-center items-center w-screen bg-black ">
+
+           
             <button
               onClick={toggleItems}
-              className="text-xl ml-16 text-white font-semibold px-4 py-2 bg-gray-800 rounded-lg"
+              className="text-4xl w-[100%]  text-white font-bold rounded-lg "
+              
             >
-              {showItems ? <RxCross2 /> : <CiMenuBurger />}
+              <div className="  flex justify-around items-center  h-[70px] ">
+              <div className="text-white font-poppins">Hannan </div>
+              <div className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
+              </div>
+               
             </button>
           </div>
         </div>
 
         <div
-          className={`md:flex ${
-            showItems ? "block h-screen mt-[20%]" : "hidden h-[10px]"
-          } md:ml-[20%] md:mt-0 mt-6 ml-[54%] underline md:no-underline w-screen md:w-[40%] `}
+          className={`md:flex md:mt-10 justify-center items-start md:h-[100px] md:rounded-xl  ${
+            showItems ? "flex h-screen    bg-black z-50  " : "hidden "
+          } md:mt-0  w-screen `}
         >
-          <ul className="nav mt-6  md:mt-50 lg:mt-0 w-full  md:flex md:justify-between justify-center items-center  text-neutral-400  text-2xl font-serif font-extrabold">
-            
-            <li className={`headerbtn  mt-3  `} onClick={toggleItems}>
-              <button onClick={scrollToFirstPage}>Home</button>
+          <ul className=" mt-6 md:mt-50 lg:mt-0 w-full  flex md:flex-row  flex-col md:gap-x-20  justify-center items-center  text-neutral-400  text-2xl ">
+            <li className={`mt-3`} onClick={toggleItems}>
+              <div onClick={scrollToFirstPage}>
+                <CustomButton data="Home" />
+              </div>
             </li>
-            <li className="headerbtn mt-3" onClick={toggleItems}>
-              <button onClick={scrollToSecondPage}>Skill</button>
+            <li className="mt-3" onClick={toggleItems}>
+              <div onClick={scrollToSecondPage}>
+                <CustomButton data="Skill" />
+              </div>
             </li>
-            <li className="headerbtn mt-3" onClick={toggleItems}>
-              <button onClick={scrollToThirdPage}>Project</button>
+            <li className="mt-3" onClick={toggleItems}>
+              <div onClick={scrollToThirdPage}>
+                <CustomButton data="project" />
+              </div>
             </li>
 
-            <li className="headerbtn  mt-3" onClick={toggleItems}>
-              <button onClick={scrollToFourthPage}>Contact</button>
+            <li className="mt-3" onClick={toggleItems}>
+              <div onClick={scrollToFourthPage}>
+                <CustomButton data="Contact" />
+              </div>
             </li>
-
           </ul>
         </div>
+
 
       </div>
     </div>

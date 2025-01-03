@@ -22,8 +22,8 @@ const Header = ({
   };
 
   return (
-    <div className="bg-[#000000]  flex justify-center   font-inter  ">
-      <div className="  rounded-2xl  mt-3 w-[90%]  md:h-[100px]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-center items-center">
+    <div className="bg-[#000000]  flex justify-center   font-inter ">
+      <div className="  rounded-2xl   w-[90%]  md:h-[100px]  md:pl-10 fixed z-50    md:py-8 flex md:flex-row flex-col  justify-center items-center">
 
         <div className="flex justify-center items-center ">
           {/* logo */}
@@ -39,7 +39,7 @@ const Header = ({
             </div> 
 
           {/* toggle button */}
-          <div className="lg:hidden md:hidden flex justify-center items-center w-screen bg-black ">
+          <div className="lg:hidden md:hidden block h-[80px] w-screen bg-black ">
 
            
             <button
@@ -47,7 +47,7 @@ const Header = ({
               className="text-4xl w-[100%]  text-white font-bold rounded-lg "
               
             >
-              <div className="  flex justify-around items-center  h-[70px] ">
+              <div className="  flex justify-around items-center ">
               <div className="text-white font-poppins">Hannan </div>
               <div className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
               </div>

@@ -29,15 +29,14 @@ const SocialIcons = () => {
 }
 
 .card ul {
-  padding: 1rem;
+  padding: 1.2rem;
   display: flex;
   list-style: none;
-  gap: 1rem;
   align-items: center;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  
 }
 
 .card ul li {
@@ -125,24 +124,26 @@ const SocialIcons = () => {
       </style>
 
       <div className="card">
-        <ul>
+        <ul className="flex gap-8  md:flex-col w-[300px]  md:w-fit" >
+
           <li className="iso-pro">
             <span></span>
             <span></span>
             <span></span>
 
-            <a href="">
+            <a target="__blank" href="https://www.linkedin.com/in/hannan-siddiqui-990961258/">
               <div className="svg text-red-600 text-5xl flex justify-center items-center">
                 <FaLinkedin />
               </div>
             </a>
             <div className="text text-red-700">Linkedin</div>
           </li>
+
           <li className="iso-pro">
             <span></span>
             <span></span>
             <span></span>
-            <a href="">
+            <a target="__blank" href="https://github.com/hannan-siddiqui">
             <div className="svg text-red-600 text-5xl flex justify-center items-center">
                 <FaGithub />
               </div>
@@ -150,11 +151,12 @@ const SocialIcons = () => {
             
             <div className="text text-red-700">github</div>
           </li>
+
           <li className="iso-pro">
             <span></span>
             <span></span>
             <span></span>
-            <a href="">
+            <a target="__blank" href="https://x.com/H_Siddiqui_">
             <div className="svg text-red-600 text-4xl flex justify-center items-center">
                 <BsTwitterX />
               </div>
@@ -163,17 +165,19 @@ const SocialIcons = () => {
 
             <div className="text text-red-700">Twitter</div>
           </li>
-          <li className="iso-pro">
+
+          <li className="hidden md:block lg:block iso-pro">
             <span></span>
             <span></span>
             <span></span>
-            <a href="">
+            <a target="__blank" href="https://www.instagram.com/hannan_siddiqui___/">
             <div className="svg text-red-600 text-5xl flex justify-center items-center">
             <FaInstagram />
               </div>
             </a>
             <div className="text text-red-700">Instagram</div>
           </li>
+
         </ul>
       </div>
     </div>

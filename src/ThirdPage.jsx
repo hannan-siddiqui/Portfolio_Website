@@ -6,8 +6,7 @@ import p5 from "./projectpic/static.webp";
 import p6 from "./projectpic/aircraft-63032.jpg";
 import p7 from "./projectpic/chat.webp";
 import "./App.css";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import GithubButton from "./GithubButton";
+
 
 import React, { useEffect } from "react";
 

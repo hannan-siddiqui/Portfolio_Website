@@ -18,12 +18,11 @@ const Header = ({
     if (isLaptop) {
       return;
     }
-
     setShowItems(!showItems);
   };
 
   return (
-    <div className="bg-neutral-900 flex justify-center   font-inter  ">
+    <div className="bg-[#000000]  flex justify-center   font-inter  ">
       <div className="  rounded-2xl  mt-3 w-[90%]  md:h-[100px]  md:pl-10 fixed z-50   py-4 md:py-8 flex md:flex-row flex-col  justify-center items-center">
 
         <div className="flex justify-center items-center ">
@@ -37,8 +36,7 @@ const Header = ({
               >
                 Hannan Siddiqui
               </div>
-            </div>
-         
+            </div> 
 
           {/* toggle button */}
           <div className="lg:hidden md:hidden flex justify-center items-center w-screen bg-black ">
@@ -57,7 +55,7 @@ const Header = ({
             </button>
           </div>
         </div>
-
+        
         <div
           className={`md:flex md:mt-10 justify-center items-start md:h-[100px] md:rounded-xl  ${
             showItems ? "flex h-screen    bg-black z-50  " : "hidden "

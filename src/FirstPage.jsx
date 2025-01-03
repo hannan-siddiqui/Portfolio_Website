@@ -15,7 +15,7 @@ import SocialIcons from "./customui/Socialicons";
 
       <div className="card card border-red-700 hover:border">
           <div className="card-overlay"></div>
-          <div className="card-inner md:w-[310px] md:h-[360px] px-4 py-4 ">
+          <div className="card-inner w-[300px] md:w-[310px] md:h-[360px] px-4 py-4 ">
             Hi 👋🏻 I'm <br />
             HANNAN Siddiqui <br />
             I'm a <br />
@@ -30,7 +30,7 @@ import SocialIcons from "./customui/Socialicons";
 
         <div className="card card border-red-700 hover:border">
           <div className="card-overlay"></div>
-          <div className="card-inner  md:w-[500px] md:h-[360px] py-4 px-4">
+          <div className="card-inner w-[300px] md:w-[500px] md:h-[360px] py-4 px-4">
             Hi 👋🏻 I'm <br />
             HANNAN Siddiqui <br />
             Software Engineer <br />

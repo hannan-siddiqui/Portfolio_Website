@@ -48,8 +48,8 @@ const Header = ({
               className="text-4xl    text-white font-bold rounded-lg "
               
             >
-              <div className=" flex justify-around items-start ">
-              <div className="text-white font-poppins">Hannan </div>
+              <div className="text-red-700 flex justify-around items-start ">
+              <div className=" font-poppins">Hannan </div>
               <div className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
               </div>
                

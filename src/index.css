@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes gradient-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-border {
+  background-size: 200% 200%;
+  animation: gradient-border 4s linear infinite;
+}
+
+
 .card {
     position: relative;
     padding: 9px;
@@ -28,8 +46,6 @@
     
     background-color: #121110;
     border-radius: 30px;
-    font-size: 30px;
-    font-weight: 900;
     color: #bf1408;
     text-align: start;
     font-family: monospace;

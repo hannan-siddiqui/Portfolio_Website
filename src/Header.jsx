@@ -40,7 +40,7 @@ const Header = ({
 
           {/* toggle button */}
           
-          <div className="lg:hidden md:hidden  flex items-center justify-center border border-red-500 h-[50px]  w-screen bg-black ">
+          <div className="lg:hidden md:hidden  flex items-center justify-center  h-[50px]  w-screen bg-black ">
 
            
             <button

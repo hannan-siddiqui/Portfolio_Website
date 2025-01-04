@@ -63,7 +63,7 @@ const SecondPage = () => {
         {/* tools */}
         <div className="mt-10 flex flex-col justify-center items-center  ">
           {/* heading */}
-          <div className="text-white  text-3xl font-bold">
+          <div className="text-white md:ml-0 ml-8 text-3xl font-bold">
             Tool, Technology and Database
           </div>
           {/* box */}

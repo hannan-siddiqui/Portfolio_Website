@@ -1,6 +1,6 @@
 import { MdOutlineMailOutline } from "react-icons/md";
-import { IoCallOutline } from "react-icons/io5";
-import { CiLocationOn } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub} from "react-icons/fa";
 import "./App.css"
 
 
@@ -35,35 +35,39 @@ const FourthPage = () => {
 
         <div className="md:flex justify-center items-center  gap-6 ">
 
-          <div className="border  border-yellow-600 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
-            <div className=" text-xl md:text-6xl text-white   flex justify-center items-center  ">
+          <div className="border  border-zinc-500 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+            <div className=" text-3xl md:text-6xl text-red-500   flex justify-center items-center  ">
               <MdOutlineMailOutline />
-              <div className="text-lg md:text-4xl ml-3  text-yellow-700">
+              <div className="text-2xl md:text-4xl ml-3  text-zinc-300">
                 siddiquihannan824@gmail.com
               </div>
             </div>
           </div>
 
-          <div className="border  border-yellow-600 contact mt-6 md:mt-0  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
-            <div className=" text-4xl md:text-6xl text-white  flex justify-center items-center  ">
-              <IoCallOutline />
-              <div className="text-2xl md:text-4xl ml-3 text-yellow-700">
-                +91- XXXXXXXXXX
+          <div className="border  border-zinc-500 contact mt-6 md:mt-0  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+           <a href="https://www.linkedin.com/in/hannan-siddiqui-990961258/">
+           <div className=" text-4xl md:text-6xl text-blue-400  flex justify-center items-center  ">
+              <FaLinkedin />
+              <div className="text-2xl md:text-4xl ml-3 text-zinc-300">
+                linkedin.com/<span className="text-red-600">hannansiddiqui</span>
               </div>
             </div>
+           </a>
           </div>
-
+        
         </div>
 
         <div className="">
 
-          <div className="mt-0 md:mt-6 border  border-yellow-600 contact  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
-            <div className=" text-4xl md:text-6xl text-white   flex justify-center items-center  ">
-              <CiLocationOn />
-              <div className="text-2xl md:text-4xl ml-3 text-yellow-700">
-                Planet - C53
+          <div className="mt-0 md:mt-6 border  border-zinc-500 contact  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
+            <a target="__blank" href="https://github.com/hannan-siddiqui">
+            <div className=" text-4xl md:text-6xl text-black   flex justify-center items-center  ">
+              <FaGithub />
+              <div className="text-2xl md:text-4xl ml-3 text-zinc-300">
+              github.com/<span className="text-red-600">hannan-siddiqui</span>
               </div>
             </div>
+            </a>
           </div>
 
         </div>

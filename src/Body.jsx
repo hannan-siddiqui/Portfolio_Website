@@ -30,7 +30,7 @@ const Body = () => {
         scrollToFourthPage={() => scrollToSection(fourthPageRef)}
       />
 
-     <div className='bg-[#000000]'>
+     <div className=''>
       
      <div ref={firstPageRef}><FirstPage /></div>
       <div ref={secondPageRef}><SecondPage /></div>

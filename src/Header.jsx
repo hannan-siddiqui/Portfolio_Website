@@ -3,6 +3,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import "./App.css";
 import CustomButton from "./customui/Button";
+import Logo from "./customui/Logo";
 
 const Header = ({
   scrollToFirstPage,
@@ -44,13 +45,13 @@ const Header = ({
 
            
             <button
-              onClick={toggleItems}
+              
               className="text-4xl    text-white font-bold rounded-lg "
               
             >
-              <div className="text-red-700 flex justify-around items-start ">
-              <div className=" font-poppins">Hannan </div>
-              <div className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
+              <div className="text-red-700 flex justify-between items-start ">
+              <div className=""><Logo/></div>
+              <div onClick={toggleItems} className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
               </div>
                
             </button>

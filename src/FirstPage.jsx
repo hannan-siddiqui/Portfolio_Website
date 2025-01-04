@@ -12,11 +12,14 @@ import SocialIcons from "./customui/Socialicons";
     <div className=" pt-[35%] md:pt-0  pb-10">
 
       <div className=" md:min-h-screen flex flex-wrap justify-center items-center gap-20 md:gap-6">
+        
 
+        
         <div className=" text-white text-center w-[90%] md:mt-20">
-          <div className="py-4 text-xl text-neutral-500 font-poppins font-bold ">
-          "Software engineering is not just about writing code; it's about solving problems, creating value, and building the future one line at a time."
+          <div className=" py-4 text-xl text-red-300 font-poppins font-bold ">
+          "Software engineering is not just about writing code; it's about solving problems, creating value, and building the future."
           </div>
+          
         </div>
 
       <div className="md:-mt-20">

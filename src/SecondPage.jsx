@@ -8,12 +8,15 @@ const SecondPage = () => {
     "Python",
     "C/C++",
     "JavaScript",
+    "typescript",
     "Dart",
     "HTML",
     "CSS",
   ];
 
-  const FramwWork = ["react.js", "node.js", "express.js", "next.js", "django", "flask", "tailwind", "flutter"];
+  const FrameWork = ["react.js", "node.js", "express.js", "next.js", "django", "flask", "flutter" , "tailwind"];
+
+  const Tools = ["Git", "Docker", "Postman", "Kubernetes","Numpy", "Pandas", "AWS", "MongoDB", "FireBase", "Linux", "redux", "Zustand" , "restapi", "data structure", "algorithm"]
 
   return (
     <div className=" md:py-20 bg-[#1e1d1d] md:px-10 ">
@@ -26,11 +29,11 @@ const SecondPage = () => {
 
       {/* Skills cards */}
 
-      <div className="flex flex-wrap justify-center items-start gap-10">
+      <div className="mt-10 flex flex-wrap justify-center items-start gap-10">
         {/* language */}
-        <div className="mt-6 flex flex-col justify-center items-center  ">
+        <div className=" flex flex-col justify-center items-center  ">
           {/* heading */}
-          <div className="text-white  text-2xl font-bold">Languages</div>
+          <div className="text-white  text-3xl font-bold">Languages</div>
           {/* box */}
           <div className="mt-9 flex flex-wrap gap-5 justify-center items-center w-[400px]  md:w-[500px]">
             {Language.map((language, index) => (
@@ -41,21 +44,38 @@ const SecondPage = () => {
           </div>
         </div>
 
-        {/* language */}
-        <div className="mt-6 flex flex-col justify-center items-center  ">
+        {/* framework */}
+        <div className=" flex flex-col justify-center items-center  ">
           {/* heading */}
-          <div className="text-white  text-2xl font-bold">
+          <div className="text-white  text-3xl font-bold">
             Frameworks and Libraries
           </div>
           {/* box */}
-          <div className="mt-9 flex flex-wrap gap-5 justify-center items-center w-[400px]  md:w-[600px]">
-            {FramwWork.map((language, index) => (
+          <div className="mt-9 flex flex-wrap gap-5 justify-center items-center w-[400px]  md:w-[500px]">
+            {FrameWork.map((language, index) => (
               <div key={index}>
                 <Skill data={language} />
               </div>
             ))}
           </div>
         </div>
+
+        {/* tools */}
+        <div className="mt-10 flex flex-col justify-center items-center  ">
+          {/* heading */}
+          <div className="text-white  text-3xl font-bold">
+            Tool, Technology and Database
+          </div>
+          {/* box */}
+          <div className="mt-9 flex flex-wrap gap-5 justify-center items-center w-[400px]  md:w-[800px]">
+            {Tools.map((language, index) => (
+              <div key={index}>
+                <Skill data={language} />
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );

@@ -40,10 +40,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     overflow: hidden;
-    
     background-color: #121110;
     border-radius: 30px;
     color: #bf1408;

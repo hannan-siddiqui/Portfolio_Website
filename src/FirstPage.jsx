@@ -9,23 +9,24 @@ import SocialIcons from "./customui/Socialicons";
 
       <div className=" md:min-h-screen flex flex-wrap justify-center items-center gap-20 md:gap-6">
         
-
-        
-        <div className=" text-white text-center w-[90%] md:mt-20">
-          <div className=" py-4 text-xl text-red-300 font-poppins font-bold ">
+        <div className="  text-center w-[90%] md:mt-20 ">
+          <div className="py-4 text-xl text-red-400 font-poppins font-bold animate-pulse rounded-xl border-[2px]  border-red-800">
           "Software engineering is not just about writing code; it's about solving problems, creating value, and building the future."
           </div>
           
         </div>
 
       <div className="md:-mt-20">
-        <div className="card card border-red-700 hover:border">
+        <div className="card card border-red-700 group hover:border">
           <div className="card-overlay"></div>
-          <div className="card-inner w-[300px] md:w-[310px] md:h-[360px] px-4 py-4 text-2xl md:text-4xl font-extrabold">
+          <div className=" card-inner w-[300px] md:w-[310px] md:h-[360px] px-4 py-4 text-2xl md:text-4xl font-extrabold  ">
             Hi 👋🏻 I'm <br />
             HANNAN Siddiqui <br />
             I'm a <br />
-            Software Engineer <br />
+            <h1 className="mt-3 group-hover:underline underline-offset-4 font-agu">Software Engineer</h1> 
+            <h1 className="mt-2 group-hover:underline underline-offset-4 font-agu">Tech Enthusiast</h1>
+            <h1 className="mt-2 group-hover:underline underline-offset-4 font-agu">Dreamer...</h1>
+            
 
           </div>
         </div>

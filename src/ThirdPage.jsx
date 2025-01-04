@@ -9,12 +9,14 @@ import "./App.css";
 
 
 import React, { useEffect } from "react";
+import GithubButton from "./customui/GithubButton";
 
 const ThirdPage = () => {
+  
   const cardsData = [
     {
       img: p6,
-      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, and user authentication.",
+      desc: "An  E-commerce Web Application. Developed using React, Next.js, and TypeScript, tailwind CSS, featuring Stripe payment integration,CMS, and user authentication. ",
       stack: "Next, Typescript, MongoDB, Stripe, Tailwind",
       title: "Hyper-Cart",
       link: "https://github.com/hannan-siddiqui/Hyper-Cart",
@@ -62,7 +64,7 @@ const ThirdPage = () => {
 
     {
       img: p5,
-      desc: "Online auction System- I developed a dynamic auction platform using Django. The project incorporates HTML, CSS and JavaScript for frontend using Django framework.",
+      desc: "Online auction System- I developed a dynamic auction platform using Django. The project incorporates HTML, CSS and JavaScript for frontend using Django framework .",
       stack: "HTML, CSS, Javascript,  Django, SQLite",
       title: "Static",
       link: "https://github.com/hannan-siddiqui/Static",
@@ -77,8 +79,8 @@ const ThirdPage = () => {
 
       <div className="mt-28 bg-[#1e1d1d] flex flex-wrap justify-center gap-10">
         {cardsData.map((card, index) => (
-          <div>
-            <div key={index} className="overflow-hidden bg-neutral-800 rounded-xl p-4 md:w-[400px] w-[320px]  md:h-[220px] flex flex-col">
+          <div key={index}>
+            <div key={index} className="border border-red-600 border-b-0 overflow-hidden bg-neutral-800 rounded-xl p-4 md:w-[400px] w-[320px]  md:min-h-[240px] flex flex-col">
             {/* title */}
             <div className="text-red-900 font-bold text-3xl font-serif">{card.title}</div>
             {/* stack */}
@@ -94,13 +96,13 @@ const ThirdPage = () => {
 
           </div>
           {/* link */}
-          <div className="mt-4 md:mb-0 mb-6 flex justify-center items-center">
-              <button className="bg-neutral-600 w-[100px] border border-neutral-500 hover:border-red-800 font-bold text-xl h-[35px] rounded-xl">
+          <div className="mt-6 md:mb-0 mb-6 flex justify-center items-center">
+             
                 <a target="__blank" href={card.link}>
-                  GitHub
+                  <GithubButton/>
                 </a>
-              </button>
-            </div>
+              
+          </div>
 
           </div>
           

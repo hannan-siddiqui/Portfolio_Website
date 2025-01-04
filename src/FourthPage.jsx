@@ -45,7 +45,7 @@ const FourthPage = () => {
           </div>
 
           <div className="border  border-zinc-500 contact mt-6 md:mt-0  w-[300px] md:w-[550px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
-           <a href="https://www.linkedin.com/in/hannan-siddiqui-990961258/">
+           <a target="__blank" href="https://www.linkedin.com/in/hannan-siddiqui-990961258/">
            <div className=" text-4xl md:text-6xl text-blue-400  flex justify-center items-center  ">
               <FaLinkedin />
               <div className="text-2xl md:text-4xl ml-3 text-zinc-300">

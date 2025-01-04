@@ -6,7 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./Body";
-import Card from "./FrontPagePic";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
@@ -17,10 +16,7 @@ const appRouter = createBrowserRouter([
     path: "/",
     element: <Body />,
   },
-  {
-    path: "/project",
-    element: <Card />,
-  },
+  
 ]);
 
 root.render(<RouterProvider router={appRouter} />);

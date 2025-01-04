@@ -3,7 +3,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import "./App.css";
 import CustomButton from "./customui/Button";
-import Logo from "./customui/Logo";
+
 
 const Header = ({
   scrollToFirstPage,
@@ -23,7 +23,7 @@ const Header = ({
   };
 
   return (
-    <div className="bg-[#000000]  flex justify-center  items-start  font-inter ">
+    <div className="bg-[#000000] z-50 flex justify-center  items-start  font-inter ">
       <div className="  rounded-2xl    md:h-[100px]  md:pl-10 fixed z-50    md:py-8 flex md:flex-row flex-col  justify-center items-center">
 
         <div className=" ">

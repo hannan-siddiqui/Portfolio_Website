@@ -1,11 +1,7 @@
 import React from "react";
-import hannan from "./projectpic/Hannan.png";
 import "./App.css";
 import SocialIcons from "./customui/Socialicons";
 
-
-
- {/* <img className="w-[360px]" src={hannan} alt="" /> */}
 
  const FirstPage = () => {
   return (
@@ -39,7 +35,7 @@ import SocialIcons from "./customui/Socialicons";
         <div className="card card border-red-700 hover:border">
           <div className="card-overlay"></div>
           <div className="card-inner w-[300px] md:w-[500px] md:h-[360px] py-4 px-4 text-lg md:text-2xl font-semibold">
-          I specialize in full-stack development, leveraging my expertise to build dynamic and scalable applications. With a **Master's in Computer Science and experience working on diverse projects and internships, I focus on creating secure, user-friendly, and impactful digital solutions. My passion lies in transforming ideas into seamless digital experiences.
+          I specialize in full-stack development, leveraging my expertise to build dynamic and scalable applications. With a Master's in Computer Science and experience working on diverse projects and internships, I focus on creating secure, user-friendly, and impactful digital solutions. My passion lies in transforming ideas into seamless digital experiences.
 
           </div>
         </div>

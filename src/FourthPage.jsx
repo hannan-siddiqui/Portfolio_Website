@@ -36,9 +36,9 @@ const FourthPage = () => {
         <div className="md:flex justify-center items-center  gap-6 ">
 
           <div className="border  border-zinc-500 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
-            <div className=" text-3xl md:text-6xl text-red-500   flex justify-center items-center  ">
+            <div className=" text-4xl md:text-6xl text-red-500   flex justify-center items-center  ">
               <MdOutlineMailOutline />
-              <div className="text-2xl md:text-4xl ml-3  text-zinc-300">
+              <div className="text-lg md:text-4xl ml-3  text-zinc-300">
                 siddiquihannan824@gmail.com
               </div>
             </div>
@@ -49,7 +49,7 @@ const FourthPage = () => {
            <div className=" text-4xl md:text-6xl text-blue-400  flex justify-center items-center  ">
               <FaLinkedin />
               <div className="text-2xl md:text-4xl ml-3 text-zinc-300">
-                linkedin.com/<span className="text-red-600">hannansiddiqui</span>
+                linkedin 
               </div>
             </div>
            </a>
@@ -64,7 +64,7 @@ const FourthPage = () => {
             <div className=" text-4xl md:text-6xl text-black   flex justify-center items-center  ">
               <FaGithub />
               <div className="text-2xl md:text-4xl ml-3 text-zinc-300">
-              github.com/<span className="text-red-600">hannan-siddiqui</span>
+              github
               </div>
             </div>
             </a>

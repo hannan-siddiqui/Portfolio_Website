@@ -158,7 +158,7 @@ const GithubButton = () => {
       <button className=" hover:text-red-700 cart-button w-[230px] md:w-[360px]">
         <div className="glass-effect"></div>
 
-        <span className="button-text ">visit Github</span>
+        <span className="button-text ">Github</span>
       </button>
     </div>
   );

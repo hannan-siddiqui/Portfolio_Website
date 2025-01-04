@@ -1,3 +1,5 @@
+
+import React from "react";
 import p1 from "./projectpic/pr1.png";
 import p2 from "./projectpic/studenthelp.jpg";
 import p3 from "./projectpic/bitebuddy.avif";
@@ -6,9 +8,6 @@ import p5 from "./projectpic/static.webp";
 import p6 from "./projectpic/aircraft-63032.jpg";
 import p7 from "./projectpic/chat.webp";
 import "./App.css";
-
-
-import React, { useEffect } from "react";
 import GithubButton from "./customui/GithubButton";
 
 const ThirdPage = () => {

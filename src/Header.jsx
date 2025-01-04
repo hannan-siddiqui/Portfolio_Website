@@ -49,9 +49,9 @@ const Header = ({
               className="text-4xl    text-white font-bold rounded-lg "
               
             >
-              <div className="text-red-700 flex justify-between items-start ">
-              <div className=""><Logo/></div>
-              <div onClick={toggleItems} className="">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
+              <div className="text-red-700 flex justify-end items-start ">
+              <div className="mr-10"><Logo/></div>
+              <div onClick={toggleItems} className="ml-32">{showItems ? <RxCross2 /> : <CiMenuBurger />}</div>
               </div>
                
             </button>

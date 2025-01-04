@@ -38,7 +38,7 @@ const FourthPage = () => {
           <div className="border  border-zinc-500 contact  w-[300px] md:w-[650px] h-16 md:h-28  flex justify-center items-center rounded-3xl">
             <div className=" text-4xl md:text-6xl text-red-500   flex justify-center items-center  ">
               <MdOutlineMailOutline />
-              <div className="text-lg md:text-4xl ml-3  text-zinc-300">
+              <div className="text-base md:text-4xl ml-3 font-bold text-zinc-300">
                 siddiquihannan824@gmail.com
               </div>
             </div>
@@ -80,3 +80,4 @@ const FourthPage = () => {
 };
 
 export default FourthPage;
+
